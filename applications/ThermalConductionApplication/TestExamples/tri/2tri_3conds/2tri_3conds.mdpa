@@ -1,0 +1,79 @@
+Begin ModelPartData
+//  VARIABLE_NAME value
+End ModelPartData
+
+Begin Properties 0
+End Properties
+
+Begin Nodes
+    1   0.0000000000   0.0000000000   0.0000000000
+    2   0.1000000000   0.0000000000   0.0000000000
+    3   0.0000000000   0.1000000000   0.0000000000
+    4   0.1000000000   0.1000000000   0.0000000000
+End Nodes
+
+
+Begin Elements Element2D3N// GUI group identifier: Body
+        1         0     3     1     2 
+        2          0     3     2     4 
+End Elements
+
+Begin Conditions LineCondition2D2N// GUI group identifier: External heat flux Right
+    1 0 2 4
+End Conditions
+
+Begin Conditions LineCondition2D2N// GUI group identifier: Imposed temperature
+    2 0 3 4
+End Conditions
+
+Begin Conditions ThermalFace2D2N// GUI group identifier: Thermal face conditions Bottom
+    3 0 1 2
+End Conditions
+
+Begin SubModelPart CNVDFFParts_Body // Group Body // Subtree CNVDFFParts
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartElements
+            1
+            2
+    End SubModelPartElements
+End SubModelPart
+Begin SubModelPart TEMPERATURE_Temperature // Group Temperature // Subtree TEMPERATURE
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+End SubModelPart
+Begin SubModelPart HeatFlux2D_External_heat_flux_Right // Group External heat flux Right // Subtree HeatFlux2D
+    Begin SubModelPartNodes
+            2
+            4
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            1
+    End SubModelPartConditions
+End SubModelPart
+Begin SubModelPart ImposedTemperature2D_Imposed_temperature // Group Imposed temperature // Subtree ImposedTemperature2D
+    Begin SubModelPartNodes
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            2
+    End SubModelPartConditions
+End SubModelPart
+Begin SubModelPart ThermalFace2D_Thermal_face_conditions_Bottom // Group Thermal face conditions Bottom // Subtree ThermalFace2D
+    Begin SubModelPartNodes
+            1
+            2
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            3
+    End SubModelPartConditions
+End SubModelPart

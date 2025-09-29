@@ -1,0 +1,3 @@
+D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

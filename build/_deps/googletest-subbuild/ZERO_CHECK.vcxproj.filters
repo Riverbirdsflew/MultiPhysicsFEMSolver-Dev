@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\5c9b40267ef8b872c970449be618d124\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01B4A069-F866-3D81-8A0C-90E07535C60D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

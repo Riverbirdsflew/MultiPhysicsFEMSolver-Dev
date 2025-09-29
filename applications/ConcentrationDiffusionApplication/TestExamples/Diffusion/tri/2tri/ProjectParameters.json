@@ -1,0 +1,114 @@
+{
+    "analysis_stage"   : "KratosMultiphysics.ConcentrationDiffusionApplication.concentration_diffusion_analysis",
+    "problem_data"     : {
+        "problem_name"  : "testDiffusion_2tri",
+        "parallel_type" : "OpenMP",
+        "time_step"     : 1000,
+        "start_time"    : 0.0,
+        "end_time"      : 100000,
+        "echo_level"    : 0
+    },
+    "solver_settings"  : {
+        "solver_type"                        : "transient",
+        "analysis_type"                      : "non_linear",
+        "model_part_name"                    : "DiffusionModelPart",
+        "domain_size"                        : 2,
+        "model_import_settings"              : {
+            "input_type"     : "mdpa",
+            "input_filename" : "testDiffusion_2tri"
+        },
+        "material_import_settings"           : {
+            "materials_filename" : "ConcentrationDiffusionMaterials.json"
+        },
+        "line_search"                        : false,
+        "echo_level"                         : 0,
+        "compute_reactions"                  : false,
+        "max_iteration"                      : 20,
+        "convergence_criterion"              : "solution_criterion",
+        "solution_absolute_tolerance"        : 0.0005,
+        "problem_domain_sub_model_part_list" : ["CONCENDIFFParts_Body"],
+        "processes_sub_model_part_list"      : ["CONCENTRATION_Concentration","ConcenFlux2D_External_concen_flux_Right","ImposedConcentration2D_Imposed_concentration","ConcenFace2D_Concen_face_conditions_Bottom"],
+        "time_stepping"                      : {
+            "time_step" : 2000
+        }
+    },
+    "processes"        : {
+        "initial_conditions_process_list" : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.CONCENTRATION_Concentration",
+                "variable_name"   : "CONCENTRATION",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 0.01
+            }
+        }],
+        "constraints_process_list"        : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.ImposedConcentration2D_Imposed_concentration",
+                "variable_name"   : "CONCENTRATION",
+                "interval"        : [0.0,50000],
+                "constrained"     : true,
+                "value"           : 0.2
+            }
+        },{
+            "python_module" : "apply_concentration_face_process",
+            "kratos_module" : "KratosMultiphysics.ConcentrationDiffusionApplication",
+            "process_name"  : "ApplyConcentrationFaceProcess",
+            "Parameters"    : {
+                "model_part_name"        : "DiffusionModelPart.ConcenFace2D_Concen_face_conditions_Bottom",
+                "interval"               : [0.0,"End"],
+                "ambient_concentration"    : 0.3,
+                "add_ambient_radiation"  : false,
+                "emissivity"             : 0.0,
+                "add_ambient_convection" : true,
+                "convection_coefficient" : 1.5e-6
+            }
+        }],
+        "list_other_processes"            : []
+    },
+    "output_processes" : {
+        "gid_output" : [{
+            "python_module" : "gid_output_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "GiDOutputProcess",
+            "Parameters"    : {
+                "model_part_name"        : "DiffusionModelPart",
+                "postprocess_parameters" : {
+                    "result_file_configuration" : {
+                        "gidpost_flags"               : {
+                            "GiDPostMode"           : "GiD_PostBinary",
+                            "WriteDeformedMeshFlag" : "WriteDeformed",
+                            "WriteConditionsFlag"   : "WriteConditions",
+                            "MultiFileFlag"         : "SingleFile"
+                        },
+                        "file_label"                  : "time",
+                        "output_control_type"         : "time",
+                        "output_interval"             : 1.0,
+                        "body_output"                 : true,
+                        "node_output"                 : false,
+                        "skin_output"                 : false,
+                        "plane_output"                : [],
+                        "nodal_results"               : ["CONCENTRATION"],
+                        "nodal_nonhistorical_results" : [],
+                        "gauss_point_results"         : []
+                    },
+                    "point_data_configuration"  : []
+                },
+                "output_name"            : "gid_output/testDiffusion_2tri"
+            }
+        }],
+        "vtk_output" : []
+    },
+    "restart_options"  : {
+        "SaveRestart"      : false,
+        "RestartFrequency" : 0,
+        "LoadRestart"      : false,
+        "Restart_Step"     : 0
+    }
+}

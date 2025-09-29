@@ -1,0 +1,135 @@
+{
+    "analysis_stage"   : "KratosMultiphysics.ThermalConductionApplication.thermal_conduction_analysis",
+    "problem_data"     : {
+        "problem_name"  : "2tri_3conds",
+        "parallel_type" : "OpenMP",
+        "time_step"     : 100,
+        "start_time"    : 0.0,
+        "end_time"      : 1000.0,
+        "echo_level"    : 0
+    },
+    "solver_settings"  : {
+        "solver_type"                        : "transient",
+        "analysis_type"                      : "non_linear",
+        "model_part_name"                    : "ThermalModelPart",
+        "domain_size"                        : 2,
+        "model_import_settings"              : {
+            "input_type"     : "mdpa",
+            "input_filename" : "2tri_3conds"
+        },
+        "material_import_settings"           : {
+            "materials_filename" : "ConvectionDiffusionMaterials.json"
+        },
+        "line_search"                        : false,
+        "echo_level"                         : 0,
+        "compute_reactions"                  : false,
+        "max_iteration"                      : 20,
+        "convergence_criterion"              : "solution_criterion",
+        "solution_absolute_tolerance"        : 0.0005,
+        "problem_domain_sub_model_part_list" : ["CNVDFFParts_Body"],
+        "processes_sub_model_part_list"      : ["TEMPERATURE_Temperature","HeatFlux2D_External_heat_flux_Right","ImposedTemperature2D_Imposed_temperature","ThermalFace2D_Thermal_face_conditions_Bottom"],
+        "time_stepping"                      : {
+            "time_step" : 100
+        }
+    },
+    "processes"        : {
+        "initial_conditions_process_list" : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "ThermalModelPart.TEMPERATURE_Temperature",
+                "variable_name"   : "TEMPERATURE",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 293.15
+            }
+        }],
+        "constraints_process_list"        : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "ThermalModelPart.HeatFlux2D_External_heat_flux_Right",
+                "variable_name"   : "FACE_HEAT_FLUX",
+                "interval"        : [0.0,1000.0],
+                "constrained"     : false,
+                "value"           : 26400.0
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "ThermalModelPart.ImposedTemperature2D_Imposed_temperature",
+                "variable_name"   : "TEMPERATURE",
+                "interval"        : [0.0,1000.0],
+                "constrained"     : true,
+                "value"           : 373.15
+            }
+        },{
+            "python_module" : "apply_thermal_face_process",
+            "kratos_module" : "KratosMultiphysics.ThermalConductionApplication",
+            "process_name"  : "ApplyThermalFaceProcess",
+            "Parameters"    : {
+                "model_part_name"        : "ThermalModelPart.ThermalFace2D_Thermal_face_conditions_Bottom",
+                "interval"               : [0.0,1000.0],
+                "ambient_temperature"    : 873.15,
+                "add_ambient_radiation"  : false,
+                "emissivity"             : 0.0,
+                "add_ambient_convection" : true,
+                "convection_coefficient" : 500.0
+            }
+        }],
+        "list_other_processes"            : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "ThermalModelPart.CNVDFFParts_Body",
+                "variable_name"   : "HEAT_FLUX",
+                "value"           : 0.0,
+                "constrained"     : false
+            }
+        }]
+    },
+    "output_processes" : {
+        "gid_output" : [{
+            "python_module" : "gid_output_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "GiDOutputProcess",
+            "Parameters"    : {
+                "model_part_name"        : "ThermalModelPart",
+                "postprocess_parameters" : {
+                    "result_file_configuration" : {
+                        "gidpost_flags"               : {
+                            "GiDPostMode"           : "GiD_PostBinary",
+                            "WriteDeformedMeshFlag" : "WriteDeformed",
+                            "WriteConditionsFlag"   : "WriteConditions",
+                            "MultiFileFlag"         : "SingleFile"
+                        },
+                        "file_label"                  : "step",
+                        "output_control_type"         : "step",
+                        "output_interval"             : 1.0,
+                        "body_output"                 : true,
+                        "node_output"                 : false,
+                        "skin_output"                 : false,
+                        "plane_output"                : [],
+                        "nodal_results"               : ["TEMPERATURE","DENSITY"],
+                        "nodal_nonhistorical_results" : [],
+                        "gauss_point_results"         : []
+                    },
+                    "point_data_configuration"  : []
+                },
+                "output_name"            : "gid_output/2tri_3conds"
+            }
+        }],
+        "vtk_output" : []
+    },
+    "restart_options"  : {
+        "SaveRestart"      : false,
+        "RestartFrequency" : 0,
+        "LoadRestart"      : false,
+        "Restart_Step"     : 0
+    }
+}

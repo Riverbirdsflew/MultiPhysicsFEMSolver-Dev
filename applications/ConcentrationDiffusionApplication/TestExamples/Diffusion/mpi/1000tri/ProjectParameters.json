@@ -1,0 +1,180 @@
+{
+    "analysis_stage"   : "KratosMultiphysics.ConcentrationDiffusionApplication.concentration_diffusion_analysis",
+    "problem_data"     : {
+        "problem_name"  : "Diff_1000_tri",
+        "parallel_type" : "MPI",
+        "start_time"    : 0.0,
+        "time_1"        : 50000.0,
+        "end_time"      : 100000.0,
+        "echo_level"    : 0
+    },
+    "solver_settings"  : {
+        "solver_type"                        : "transient",
+        "analysis_type"                      : "non_linear",
+        "model_part_name"                    : "DiffusionModelPart",
+        "domain_size"                        : 2,
+        "model_import_settings"              : {
+            "input_type"     : "mdpa",
+            "input_filename" : "Diff_1000_tri"
+        },
+        "material_import_settings"           : {
+            "materials_filename" : "DiffusionMaterials.json"
+        },
+        "line_search"                        : false,
+        "echo_level"                         : 0,
+        "compute_reactions"                  : false,
+        "max_iteration"                      : 20,
+        "convergence_criterion"              : "solution_criterion",
+        "solution_absolute_tolerance"        : 0.0005,
+        "problem_domain_sub_model_part_list" : ["CONCENDIFFParts_Body"],
+        "processes_sub_model_part_list"      : ["CONCENTRATION_Concentration","ImposedConcentration2D_Imposed_concentration","ConcenFace2D_Concen_face_conditions_Bottom","Phase_Fraction","Phase_name1","Phase_name2"],
+        "time_stepping"                      : {
+            "time_step" : 2000
+        }
+    },
+    "processes"        : {
+        "initial_conditions_process_list" : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.CONCENTRATION_Concentration",
+                "variable_name"   : "CONCENTRATION",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 0.01
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name1",
+                "variable_name"   : "PHASE_TRANSITION_FRACTION",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 0.1
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name1",
+                "variable_name"   : "PHASE_NAME",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 1
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name2",
+                "variable_name"   : "PHASE_NAME",
+                "interval"        : [0.0,0.0],
+                "constrained"     : false,
+                "value"           : 2
+            }
+        }],
+        "constraints_process_list"        : [{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.ImposedConcentration2D_Imposed_concentration",
+                "variable_name"   : "CONCENTRATION",
+                "interval"        : [0.0,50000.0],
+                "constrained"     : true,
+                "value"           : 0.2
+            }
+        },{
+            "python_module" : "apply_concentration_face_process",
+            "kratos_module" : "KratosMultiphysics.ConcentrationDiffusionApplication",
+            "process_name"  : "ApplyConcentrationFaceProcess",
+            "Parameters"    : {
+                "model_part_name"        : "DiffusionModelPart.ConcenFace2D_Concen_face_conditions_Bottom",
+                "ambient_concentration"    : 0.3,
+                "add_ambient_radiation"  : false,
+                "emissivity"             : 0.0,
+                "add_ambient_convection" : true,
+                "convection_coefficient" : 1.5e-8,
+                "interval"               : [0.0,"End"]
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name1",
+                "variable_name"   : "PHASE_TRANSITION_FRACTION",
+                "interval"        : [50000,"End"],
+                "constrained"     : false,
+                "value"           : 0.2
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name1",
+                "variable_name"   : "PHASE_NAME",
+                "interval"        : [50000,"End"],
+                "constrained"     : false,
+                "value"           : 2
+            }
+        },{
+            "python_module" : "assign_scalar_variable_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "AssignScalarVariableProcess",
+            "Parameters"    : {
+                "model_part_name" : "DiffusionModelPart.Phase_name2",
+                "variable_name"   : "PHASE_NAME",
+                "interval"        : [50000.0,"End"],
+                "constrained"     : false,
+                "value"           : 1
+            }
+        }],
+        "list_other_processes"            : []
+    },
+    "output_processes" : {
+        "gid_output" : [{
+            "python_module" : "gid_output_process",
+            "kratos_module" : "KratosMultiphysics",
+            "process_name"  : "GiDOutputProcess",
+            "Parameters"    : {
+                "model_part_name"        : "DiffusionModelPart",
+                "postprocess_parameters" : {
+                    "result_file_configuration" : {
+                        "gidpost_flags"               : {
+                            "GiDPostMode"           : "GiD_PostBinary",
+                            "WriteDeformedMeshFlag" : "WriteDeformed",
+                            "WriteConditionsFlag"   : "WriteElementsOnly",
+                            "MultiFileFlag"         : "SingleFile"
+                        },
+                        "file_label"                  : "time",
+                        "output_control_type"         : "time",
+                        "output_interval"             : 1.0,
+                        "body_output"                 : true,
+                        "node_output"                 : false,
+                        "skin_output"                 : false,
+                        "plane_output"                : [],
+                        "nodal_results"               : ["CONCENTRATION","PHASE_TRANSITION_FRACTION","PHASE_NAME"],
+                        "nodal_nonhistorical_results" : [],
+                        "gauss_point_results"         : []
+                    },
+                    "point_data_configuration"  : []
+                },
+                "output_name"            : "gid_output/Diffusion_1000tri"
+            }
+        }],
+        "vtk_output" : []
+    },
+    "restart_options"  : {
+        "SaveRestart"      : false,
+        "RestartFrequency" : 0,
+        "LoadRestart"      : false,
+        "Restart_Step"     : 0
+    }
+}

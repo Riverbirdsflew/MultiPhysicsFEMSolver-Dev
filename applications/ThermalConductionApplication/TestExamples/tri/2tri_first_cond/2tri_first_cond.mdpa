@@ -1,0 +1,53 @@
+Begin ModelPartData
+//  VARIABLE_NAME value
+End ModelPartData
+
+Begin Properties 0
+End Properties
+
+Begin Nodes
+    1   0.0000000000   0.0000000000   0.0000000000
+    2   0.1000000000   0.0000000000   0.0000000000
+    3   0.0000000000   0.1000000000   0.0000000000
+    4   0.1000000000   0.1000000000   0.0000000000
+End Nodes
+
+
+Begin Elements Element2D3N// GUI group identifier: Body
+        1          0     2     4     1 
+        2          0     4     3     1 
+End Elements
+
+Begin Conditions LineCondition2D2N// GUI group identifier: Imposed temperature
+    1 0 4 3
+End Conditions
+
+Begin SubModelPart CNVDFFParts_Body // Group Body // Subtree CNVDFFParts
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartElements
+            1
+            2
+    End SubModelPartElements
+End SubModelPart
+Begin SubModelPart TEMPERATURE_Body // Group Body // Subtree TEMPERATURE
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+End SubModelPart
+Begin SubModelPart ImposedTemperature2D_Imposed_temperature // Group Imposed temperature // Subtree ImposedTemperature2D
+    Begin SubModelPartNodes
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            1
+    End SubModelPartConditions
+End SubModelPart

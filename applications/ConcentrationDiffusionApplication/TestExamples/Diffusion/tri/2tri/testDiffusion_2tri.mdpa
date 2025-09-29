@@ -1,0 +1,79 @@
+Begin ModelPartData
+//  nothing here
+End ModelPartData
+
+
+Begin Properties 0            
+End Properties
+
+Begin Nodes
+       1        0.0        0.0         0.0     //node number, coord x, cord y, coord z
+       2        1.0        0.0         0.0     //node number, coord x, cord y, coord z
+       3        1.0        1.0         0.0     //node number, coord x, cord y, coord z
+       4        0.0        1.0         0.0     //node number, coord x, cord y, coord z
+End Nodes
+
+Begin Elements Element2D3N //here we must write the name of the element that we created
+  1 0 1 2 4   //pos1:elem ID ; pos2:elem Property ( = 1 in this case) ; pos3 - pos5: node1-node3    
+  2 0 3 4 2   //pos1 and pos2 are always id and property. if the elem had 4 nodes, we woud add a 6th column for the last node    
+End Elements
+
+Begin Conditions LineCondition2D2N// GUI group identifier: External concen flux Right
+    1 0 2 3
+End Conditions
+
+Begin Conditions LineCondition2D2N// GUI group identifier: Imposed concentration
+    2 0 4 3
+End Conditions
+
+Begin Conditions LineCondition2D2N// GUI group identifier: Concen face conditions Bottom
+    3 0 1 2
+End Conditions
+
+Begin SubModelPart CONCENDIFFParts_Body // Group Body // Subtree CONCENDIFFParts
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartElements
+            1
+            2
+    End SubModelPartElements
+End SubModelPart
+Begin SubModelPart CONCENTRATION_Concentration// Group Temperature // Subtree CONCENTRATION
+    Begin SubModelPartNodes
+            1
+            2
+            3
+            4
+    End SubModelPartNodes
+End SubModelPart
+Begin SubModelPart ConcenFlux2D_External_concen_flux_Right // Group External heat flux Right // Subtree ConcenFlux2D
+    Begin SubModelPartNodes
+            2
+            3
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            1
+    End SubModelPartConditions
+End SubModelPart
+Begin SubModelPart ImposedConcentration2D_Imposed_concentration // Group Imposed concentration // Subtree ImposedConcentration2D
+    Begin SubModelPartNodes
+            3
+            4
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            2
+    End SubModelPartConditions
+End SubModelPart
+Begin SubModelPart ConcenFace2D_Concen_face_conditions_Bottom // Group Concen face conditions Bottom // Subtree ConcenFace2D
+    Begin SubModelPartNodes
+            1
+            2
+    End SubModelPartNodes
+    Begin SubModelPartConditions
+            3
+    End SubModelPartConditions
+End SubModelPart

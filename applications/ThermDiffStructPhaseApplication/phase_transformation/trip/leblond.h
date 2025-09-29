@@ -1,0 +1,248 @@
+//    |  /           |
+//    ' /   __| _` | __|  _ \   __|
+//    . \  |   (   | |   (   |\__ \.
+//   _|\_\_|  \__,_|\__|\___/ ____/
+//                   Multi-Physics
+//
+//
+//  Main authors:    whf
+//                   
+
+
+
+#if !defined(KRATOS_LEBLOND)
+#define  KRATOS_LEBLOND
+
+#pragma once
+
+/* System includes */
+
+/* External includes */
+
+/* Project includes */
+#include "trip_model.h"
+
+
+namespace Kratos
+{
+
+/**
+ * Base class of trip.
+ */
+class KRATOS_API(THERM_DIFF_STRUCT_PHASE_APPLICATION) Leblond : public TripModel
+{
+public:
+
+    /**
+     * Type definitions
+     * NOTE: geometries are assumed to be of type Node for all problems
+     */
+    typedef ProcessInfo ProcessInfoType;
+    typedef std::size_t SizeType;
+    typedef Geometry<Node > GeometryType;
+
+
+    /**
+     * Counted pointer of phase transition model
+     */
+    KRATOS_CLASS_POINTER_DEFINITION(Leblond);
+
+
+    /**
+     * Constructor.
+     */
+    Leblond();
+
+    /**
+     * Destructor.
+     */
+    virtual ~Leblond();
+
+    /**
+     * @brief Clone function (has to be implemented by any derived class)
+     * @return a pointer to a new instance of this phase transition model
+     * @note implementation scheme:
+     *      BasePhaseTransitionModel::Pointer p_clone(new BasePhaseTransitionModel());
+     *      return p_clone;
+     */
+    virtual TripModel::Pointer Clone() const;
+
+
+    /**
+     * @return The working space dimension of the current phase transition model
+     * @note This function HAS TO BE IMPLEMENTED by any derived class
+     */
+    virtual SizeType WorkingSpaceDimension();
+
+    /**
+     * @brief 获取相变类型的字符串表示
+     * @return 返回当前相变类型对应的字符串
+     */
+    std::string GetTransTypeName() const;
+
+    /**
+     * This is to be called at the very beginning of the calculation
+     * (e.g. from InitializeElement) in order to initialize all relevant
+     * attributes of the trip model
+     * @param rMaterialProperties the Properties instance of the current element
+     * @param rElementGeometry the geometry of the current element
+     * @param rShapeFunctionsValues the shape functions values in the current integration point
+     */
+    virtual int Initialize(const Properties& rMaterialProperties, PhaseTransformationType rType);
+
+    virtual double GetEqTripInc(const Properties &rMaterialProperties, const GeometryType &rElementGeometry,
+                                const Vector &rShapeFunctionsValues, const ProcessInfo &rCurrentProcessInfo,
+                                SizeType NodeId, double rMassFrac, double rMassFracIncc);
+
+    /**
+     * This function is designed to be called once to perform all the checks needed
+     * on the input provided. Checks can be "expensive" as the function is designed
+     * to catch user's errors.
+     * @param rMaterialProperties
+     * @param rElementGeometry
+     * @param rCurrentProcessInfo
+     * @return
+     */
+    virtual int Check(const Properties& rMaterialProperties,
+                      const GeometryType& rElementGeometry,
+                      const ProcessInfo& rCurrentProcessInfo) const;
+
+
+    ///@}
+    ///@}
+    ///@name Inquiry
+    ///@{
+    ///@}
+    ///@name Input and output
+    ///@{
+
+    /// Turn back information as a string.
+    std::string Info() const
+    {
+        std::stringstream buffer;
+        buffer << "Leblond" << std::endl;
+        return buffer.str();
+    }
+
+    /// Print information about this object.
+    void PrintInfo(std::ostream& rOStream) const
+    {
+        rOStream << "Leblond";
+    }
+
+    /// Print object's data.
+    void PrintData(std::ostream& rOStream) const
+    {
+      rOStream << "Leblond data";
+    }
+
+
+    ///@}
+    ///@name Friends
+    ///@{
+    ///@}
+
+protected:
+
+    ///@name Protected static Member Variables
+    ///@{
+    ///@}
+    ///@name Protected member Variables
+    ///@{
+    Variable<double>* mPara; 
+    PhaseTransformationType mType;
+    ///@}
+    ///@name Protected Operators
+    ///@{
+    ///@}
+    ///@name Protected Operations
+    ///@{
+    ///@}
+    ///@name Protected  Access
+    ///@{
+
+
+    ///@}
+    ///@name Protected Inquiry
+    ///@{
+
+
+    ///@}
+    ///@name Protected LifeCycle
+    ///@{
+
+
+    ///@}
+
+
+private:
+
+    ///@name Static Member Variables
+    ///@{
+
+
+    ///@}
+    ///@name Member Variables
+    ///@{
+
+    ///@}
+    ///@name Private Operators
+    ///@{
+
+
+    ///@}
+    ///@name Private Operations
+    ///@{
+
+
+    ///@}
+    ///@name Private  Access
+    ///@{
+    ///@}
+
+    ///@}
+    ///@name Serialization
+    ///@{
+
+    ///@}
+    ///@name Private Inquiry
+    ///@{
+
+
+    ///@}
+    ///@name Un accessible methods
+    ///@{
+
+    ///@}
+
+}; /* Class PhaseTransition */
+
+///@}
+///@name Type Definitions
+///@{
+///@}
+///@name Input and output
+///@{
+
+/// input stream function
+inline std::istream & operator >>(std::istream& rIStream,
+                                  Leblond& rThis);
+
+/// output stream function
+
+inline std::ostream & operator <<(std::ostream& rOStream,
+                                  const Leblond& rThis)
+{
+    rThis.PrintInfo(rOStream);
+    rOStream << " : " << std::endl;
+    rThis.PrintData(rOStream);
+
+    return rOStream;
+}
+
+///@}
+///@} addtogroup block
+
+
+} /* namespace Kratos.*/
+#endif /* KRATOS_TTT  defined */

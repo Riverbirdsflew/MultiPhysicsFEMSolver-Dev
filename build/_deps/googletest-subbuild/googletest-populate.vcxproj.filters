@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\c870d6d09dd609a70b8189e89ed7fc4c\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\48859ccadf7974fbbae3ee25abca9d47\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\5c9b40267ef8b872c970449be618d124\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\WHF\IMMM\Nas_whf\SynologyDrive\Document\IMMM_nas\Graduate\kratos\Kratos_script\kratos-dev\kratos-custom\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{01B4A069-F866-3D81-8A0C-90E07535C60D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

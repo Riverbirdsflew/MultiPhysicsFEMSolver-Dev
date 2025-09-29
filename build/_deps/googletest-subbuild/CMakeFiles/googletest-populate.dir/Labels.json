@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/5c9b40267ef8b872c970449be618d124/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/48859ccadf7974fbbae3ee25abca9d47/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/CMakeFiles/c870d6d09dd609a70b8189e89ed7fc4c/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

@@ -1,0 +1,10 @@
+^D:\WHF\IMMM\NAS_WHF\SYNOLOGYDRIVE\DOCUMENT\IMMM_NAS\GRADUATE\KRATOS\KRATOS_SCRIPT\KRATOS-DEV\KRATOS-CUSTOM\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\5C9B40267EF8B872C970449BE618D124\GENERATE.STAMP.RULE
+setlocal
+"D:\APPs\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild -BD:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

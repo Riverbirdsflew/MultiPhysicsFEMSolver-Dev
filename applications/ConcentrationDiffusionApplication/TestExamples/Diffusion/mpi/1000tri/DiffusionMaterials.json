@@ -1,0 +1,31 @@
+{
+    "properties" : [{
+        "model_part_name" : "DiffusionModelPart.CONCENDIFFParts_Body",
+        "properties_id"   : 0,
+        "Material"        : {
+            "Variables" : {
+                "CONDUCTIVITY"  : 2.0e-8
+            },
+                       "Tables"    : {
+            	"CONCENTRATION_vs_D" : {
+                        "input_variable"  : "CONCENTRATION",
+                        "output_variable" : "CONDUCTIVITY",
+                        "data"            : [[-1,   2e-8],
+                                             [0.05, 1e-8 ],
+                                             [0.1,  0.5e-8 ]]
+                    }
+              },
+              "accessors"        : {
+            "accessor_table_C_D" : {
+                "accessor_type"  : "table_accessor",
+                "properties" : {
+                    "table_input_variable"      : "CONCENTRATION",
+                    "table_output_variable"     : "CONDUCTIVITY",
+                    "table_input_variable_type" : "node_historical"
+
+				}
+            }
+        }
+        }
+    }]
+}

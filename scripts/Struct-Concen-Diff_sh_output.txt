@@ -1,0 +1,1364 @@
+[H[2J[3J-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.39.2") 
+-- Additional default options were set for GCC
+-- CMAKE_SYSTEM_NAME = Linux
+-- CMAKE_CXX_COMPILER_ID = GNU
+-- CMAKE_CXX_FLAGS =  -funroll-loops -Wall -Wl,--no-as-needed -ldl -Wsuggest-override
+-- CMAKE_C_FLAGS =  -funroll-loops -Wall -Wl,--no-as-needed -ldl
+-- Found Python: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.11.2", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.11.so
+-- LTO is Disabled
+-- AR VERSION: /usr/bin/ar
+-- Python version used for the interface will be 3.11
+-- Standard install dir /home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Using OpenMP for shared memory parallelization
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Boost Include: /usr/include
+-- Boost Linkdir: 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+-- Found MPI_CXX: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Found EPETRA: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so  
+-- Found TEUCHOS: /usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so  
+-- Found TRIUTILS: /usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so  
+-- Found AMESOS: /usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so  
+-- Found AMESOS2: /usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so  
+-- Found AZTECOO: /usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so  
+-- Found IFPACK: /usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so  
+-- Found LOCA: /usr/lib/x86_64-linux-gnu/libtrilinos_loca.so  
+-- Found ML: /usr/lib/x86_64-linux-gnu/libtrilinos_ml.so  
+-- Found NOX: /usr/lib/x86_64-linux-gnu/libtrilinos_nox.so  
+-- Found EPETRAEXT: /usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so  
+-- Found ZOLTAN: /usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so  
+-- Trilinos packages found.
+-- TRILINOS_INCLUDE_DIR: /usr/include/trilinos;/usr/include/trilinos
+-- TRILINOS_LIBRARIES: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscore.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosnumerics.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosparameterlist.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosremainder.so;/usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so;/usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so;/usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so;/usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so;/usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so;/usr/lib/x86_64-linux-gnu/libtrilinos_loca.so;/usr/lib/x86_64-linux-gnu/libtrilinos_ml.so;/usr/lib/x86_64-linux-gnu/libtrilinos_nox.so;/usr/lib/x86_64-linux-gnu/libtrilinos_noxepetra.so;/usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so;/usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.13") 
+-- Configuring applications (ENV):
+-- Enabling trilinos extension for KratosFluidDynamicsApplication
+-- Trilinos libs to be installed: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscore.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosnumerics.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosparameterlist.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosremainder.so/usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so/usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so/usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so/usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so/usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so/usr/lib/x86_64-linux-gnu/libtrilinos_loca.so/usr/lib/x86_64-linux-gnu/libtrilinos_ml.so/usr/lib/x86_64-linux-gnu/libtrilinos_nox.so/usr/lib/x86_64-linux-gnu/libtrilinos_noxepetra.so/usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so/usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so
+-- METIS library found
+-- METIS_INCLUDE_DIR: /usr/include
+-- METIS_LIBRARIES: /usr/lib/x86_64-linux-gnu/libmetis.so
+-- clipper : /home/whf/KratosDev/Kratos-Release/Kratos-10.1/external_libraries/clipper
+-- tinyexpr : /home/whf/KratosDev/Kratos-Release/Kratos-10.1/external_libraries/tinyexpr/tinyexpr/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/whf/KratosDev/Kratos-Release/Kratos-10.1/build/Release
+[  1%] Built target tinyexpr
+[  1%] Built target KratosVersion
+[  1%] Built target gidpost
+[  1%] Built target gtest
+[  2%] Built target clipper
+[  2%] Built target gtest_main
+[  3%] Built target gmock
+[  3%] Built target gmock_main
+[  3%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/cfd_variables.cpp.o
+[  3%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/communicator.cpp.o
+[  3%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/constitutive_law.cpp.o
+[  3%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/data_communicator.cpp.o
+[  3%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/dem_variables.cpp.o
+[  4%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/deprecated_variables.cpp.o
+[  4%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/gid_io.cpp.o
+[  4%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/fsi_variables.cpp.o
+[  4%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/global_pointer_variables.cpp.o
+[  4%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/io.cpp.o
+[  5%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/kernel.cpp.o
+[  5%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/kratos_application.cpp.o
+[  5%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/kratos_components.cpp.o
+[  5%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/m4dtable_accessor.cpp.o
+[  5%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/mapping_variables.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/mat_variables.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/mesh_moving_variables.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/model_part.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/model_part_io.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/parallel_environment.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/periodic_condition.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/reorder_consecutive_model_part_io.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/serializer.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/table_accessor.cpp.o
+[  6%] Building CXX object kratos/CMakeFiles/KratosCore.dir/sources/variables.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/conditions/mesh_condition.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/containers/model.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/elements/edge_based_gradient_recovery_element.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/elements/embedded_nodal_variable_calculation_element_simplex.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/elements/levelset_convection_element_simplex_algebraic_stabilization.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/elements/mesh_element.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/factories/mapper_factory.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/factories/register_factories.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/factories/standard_linear_solver_factory.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/factories/standard_preconditioner_factory.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/linear_solvers/amgcl_solver_impl.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/cad_io_modeler.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/clean_up_problematic_triangles_modeler.cpp.o
+[  7%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_and_intersect_with_cells_in_touch.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_cell_faces.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_cell_faces_between_colors.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_cells_in_touch.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_cells_with_center_in_sphere_around_nodes.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_cells_with_inside_center.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_connected_cells_in_touch.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/color_outer_faces_of_cells_with_colors.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/voxel_mesher_coloring.cpp.o
+[  8%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/coloring/voxel_mesher_coloring_factory.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/combine_model_part_modeler.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/connectivity_preserve_modeler.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/copy_properties_modeler.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/create_entities_from_geometries_modeler.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/duplicate_mesh_modeler.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_conditions_with_face_color.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_elements_with_cell_color.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_quadratic_elements_with_cell_color.cpp.o
+[  9%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_stl_intersection_with_cells.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_tetrahedral_elements_with_cell_color.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/generate_triangular_conditions_with_face_color.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/voxel_mesher_entity_generation.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/entity_generation/voxel_mesher_entity_generation_factory.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/key_plane_generation/key_plane_generation.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/key_plane_generation/key_plane_generation_by_bounding_box.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/key_plane_generation/key_plane_generation_factory.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/key_plane_generation/key_plane_generation_with_refinement.cpp.o
+[ 10%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/modeler_factory.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/operation/find_contacts_in_skin_model_part.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/operation/voxel_mesher_operation.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/operation/voxel_mesher_operation_factory.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/serial_model_part_combinator_modeler.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/tetrahedra_ball.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/tetrahedra_edge_shell.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/modeler/voxel_mesh_generator_modeler.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/apply_constant_scalarvalue_process.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/apply_constant_vectorvalue_process.cpp.o
+[ 11%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/apply_periodic_boundary_condition_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/apply_ray_casting_interface_recognition_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/apply_ray_casting_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/assign_scalar_field_to_entities_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/assign_scalar_input_to_entities_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/assign_scalar_variable_to_entities_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/calculate_discontinuous_distance_to_skin_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/calculate_distance_to_path_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/calculate_distance_to_skin_process.cpp.o
+[ 12%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/calculate_nodal_area_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/calculate_nodal_distance_to_skin_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/check_same_modelpart_using_skin_distance_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/check_skin_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/compute_nodal_gradient_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/compute_nodal_normal_divergence_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/entity_erase_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/fast_transfer_between_model_parts_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_conditions_neighbours_process.cpp.o
+[ 13%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_global_nodal_entity_neighbours_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_global_nodal_neighbours_for_entities_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_intersected_geometrical_objects_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_intersected_geometrical_objects_with_obb_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_nodal_h_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/find_nodal_neighbours_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/from_json_check_result_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/generic_find_elements_neighbours_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/integration_values_extrapolation_to_nodes_process.cpp.o
+[ 14%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/measure_mesh_quality_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/mesh_coarsening_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/mesh_local_smoothing_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/mesh_node_collapsing_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/parallel_distance_calculation_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/reorder_and_optimize_modelpart_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/replace_elements_and_condition_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/set_initial_state_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/simple_mortar_mapper_process.cpp.o
+[ 15%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/skin_detection_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/split_internal_interfaces_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/structured_mesh_generator_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/sub_model_part_skin_detection_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/tetrahedra_mesh_edge_swapping_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/tetrahedra_mesh_quality_weighted_smoothing_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/tetrahedra_mesh_worst_element_smoothing_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/tetrahedral_mesh_orientation_check.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/processes/time_averaging_process.cpp.o
+[ 16%] Building CXX object kratos/CMakeFiles/KratosCore.dir/controllers/output_controller.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/solving_strategies/builder_and_solvers/explicit_builder.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/spatial_containers/bounding_volume_tree.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/spatial_containers/point_object.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/spatial_containers/spatial_search.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/spatial_containers/specialized_spatial_search.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/apply_function_to_nodes_utility.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/assign_master_slave_constraints_to_neighbours_utility.cpp.o
+[ 17%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/assign_unique_model_part_collection_tag_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/auxiliar_model_part_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/brute_force_point_locator.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/compare_elements_and_conditions_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/constraint_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/embedded_skin_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/entities_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/exact_mortar_segmentation_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/file_name_data_collector.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/fill_communicator.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/force_and_torque_utils.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/geometry_tester.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/mls_shape_functions_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/model_part_combination_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/model_part_graph_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/model_part_operation_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/mortar_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/normal_calculation_utils.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/properties_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/rbf_shape_functions_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/read_and_set_accessors_utilities.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/read_materials_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/rve_periodicity_utility.cpp.o
+[ 18%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/search_utilities.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/sensitivity_builder.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/sensitivity_utilities.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/shifted_boundary_meshless_interface_utility.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/single_import_model_part.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/specifications_utilities.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/sub_model_part_entities_boolean_operation_utility.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/tessellation_utilities/delaunator_utilities.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/variable_redistribution_utility.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/utilities/variable_utils.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/cad_json_output.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/logger_message.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/logger_output.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/logger_table_output.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/obj_io.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/stl_io.cpp.o
+[ 19%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/unv_output.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/vtk_output.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/input_output/vtu_output.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/c_array_expression_io.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/container_expression.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/domain_size_expression_io.cpp.o
+[ 20%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/expression_utils.cpp.o
+[ 21%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/integration_point_expression_io.cpp.o
+[ 21%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/literal_expression_input.cpp.o
+[ 21%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/nodal_position_expression_io.cpp.o
+[ 22%] Building CXX object kratos/CMakeFiles/KratosCore.dir/expression/variable_expression_io.cpp.o
+[ 22%] Linking CXX shared library libKratosCore.so
+[ 33%] Built target KratosCore
+[ 33%] Building CXX object applications/LinearSolversApplication/CMakeFiles/KratosLinearSolversCore.dir/linear_solvers_application.cpp.o
+[ 33%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCore.dir/custom_processes/metis_divide_heterogeneous_input_in_memory_process.cpp.o
+[ 33%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/sources/mpi_data_communicator.cpp.o
+[ 33%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/cpp_tests_utilities.cpp.o
+[ 33%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/concentration_diffusion_application.cpp.o
+[ 33%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/constitutive_law_utilities.cpp.o
+[ 33%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_accessors_to_python.cpp.o
+[ 33%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/adjoint_monolithic_wall_condition.cpp.o
+[ 33%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCore.dir/custom_processes/metis_divide_heterogeneous_input_process.cpp.o
+[ 33%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/axisym_line_load_condition_2d.cpp.o
+[ 33%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_amgcl_solver_to_python.cpp.o
+[ 33%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCore.dir/custom_processes/metis_divide_submodelparts_heterogeneous_input_process.cpp.o
+[ 33%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/sources/mpi_manager.cpp.o
+[ 33%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/axisym_point_load_condition.cpp.o
+[ 33%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/utilities/data_communicator_factory.cpp.o
+[ 33%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCore.dir/custom_utilities/legacy_partitioning_utilities.cpp.o
+[ 34%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCore.dir/metis_application.cpp.o
+[ 34%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/utilities/distributed_model_part_initializer.cpp.o
+[ 34%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/base_load_condition.cpp.o
+[ 34%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/embedded_ausas_navier_stokes_wall_condition.cpp.o
+[ 34%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/runtime_dependency_handler.cpp.o
+[ 34%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/displacement_control_condition.cpp.o
+[ 34%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_conditions/axisymmetric_concentration_face.cpp.o
+[ 35%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/utilities/gather_modelpart_utility.cpp.o
+[ 35%] Building CXX object applications/LinearSolversApplication/CMakeFiles/KratosLinearSolversCore.dir/custom_factories/dense_linear_solver_factory.cpp.o
+[ 35%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/line_load_condition.cpp.o
+[ 35%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_conditions/concentration_face_condition.cpp.o
+[ 35%] Linking CXX shared library libKratosMetisCore.so
+[ 35%] Built target KratosMetisCore
+[ 35%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_conditions/axisymmetric_thermal_face.cpp.o
+[ 35%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/fs_generalized_wall_condition.cpp.o
+[ 35%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_conditions/concentration_flux_condition.cpp.o
+[ 35%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/moving_load_condition.cpp.o
+[ 35%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_bar_element.cpp.o
+[ 35%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_conditions/flux_condition.cpp.o
+[ 35%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_bounding_box_to_python.cpp.o
+[ 35%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/utilities/mpi_normal_calculation_utilities.cpp.o
+[ 35%] Linking CXX shared library libKratosLinearSolversCore.so
+[ 35%] Built target KratosLinearSolversCore
+[ 35%] Building CXX object applications/LinearSolversApplication/CMakeFiles/KratosLinearSolversApplication.dir/custom_python/add_custom_decompositions_to_python.cpp.o
+[ 36%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_elements/axisymmetric_eulerian_concentration_diffusion.cpp.o
+[ 36%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_constitutive_law.cpp.o
+[ 36%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICore.dir/utilities/parallel_fill_communicator.cpp.o
+[ 36%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_communicator_to_python.cpp.o
+[ 36%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_conditions/thermal_face.cpp.o
+[ 36%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_element.cpp.o
+[ 37%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/point_load_condition.cpp.o
+[ 37%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/fs_periodic_condition.cpp.o
+[ 38%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_elements/axisymmetric_eulerian_thermal_conduction.cpp.o
+[ 38%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/small_displacement_line_load_condition.cpp.o
+[ 38%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_environment.cpp.o
+[ 38%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_constitutive_law_to_python.cpp.o
+[ 39%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_laplacian_element.cpp.o
+[ 39%] Linking CXX shared library libKratosMPICore.so
+[ 39%] Built target KratosMPICore
+[ 39%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisApplication.dir/custom_python/add_processes_to_python.cpp.o
+[ 39%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_elements/concen_diff_2d.cpp.o
+[ 39%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/small_displacement_surface_load_condition_3d.cpp.o
+[ 39%] Building CXX object kratos/CMakeFiles/KratosCoreTestUtilities.dir/tests/test_utilities/test_suite.cpp.o
+[ 39%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/fs_werner_wengle_wall_condition.cpp.o
+[ 40%] Building CXX object applications/LinearSolversApplication/CMakeFiles/KratosLinearSolversApplication.dir/custom_python/add_custom_solvers_to_python.cpp.o
+[ 40%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_conditions/surface_load_condition_3d.cpp.o
+[ 40%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisApplication.dir/custom_python/kratos_metis_python_application.cpp.o
+[ 40%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_container_expression_to_python.cpp.o
+[ 40%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_elements/eulerian_therm_cond.cpp.o
+[ 40%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_constitutive/axisym_elastic_isotropic.cpp.o
+[ 40%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_elements/concen_diff_3d.cpp.o
+[ 40%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_constitutive/elastic_isotropic_3d.cpp.o
+[ 40%] Linking CXX shared library libKratosCoreTestUtilities.so
+[ 40%] Built target KratosCoreTestUtilities
+[ 40%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/testing/testing.cpp.o
+[ 40%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_constitutive/linear_plane_strain.cpp.o
+[ 40%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_constitutive/linear_plane_stress.cpp.o
+[ 41%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_containers_to_python.cpp.o
+[ 41%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/monolithic_wall_condition.cpp.o
+[ 41%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_constitutive/user_provided_linear_elastic_law.cpp.o
+[ 42%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_elements/axisym_small_displacement.cpp.o
+[ 42%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_elements/therm_cond_2d.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/constitutive_laws/test_constitutive_law.cpp.o
+[ 42%] Linking CXX shared module KratosMetisApplication.cpython-311-x86_64-linux-gnu.so
+[ 42%] Built target KratosMetisApplication
+[ 42%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTestUtilities.dir/tests/test_utilities/mpi_cpp_test_utilities.cpp.o
+[ 42%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionCore.dir/custom_elements/eulerian_concen_diff.cpp.o
+[ 42%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_elements/base_solid_element.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_controllers_to_python.cpp.o
+[ 42%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/navier_stokes_p2_p1_continuous_wall_condition.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_array_1d.cpp.o
+[ 42%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/custom_elements/therm_cond_3d.cpp.o
+[ 42%] Building CXX object applications/LinearSolversApplication/CMakeFiles/KratosLinearSolversApplication.dir/custom_python/linear_solvers_python_application.cpp.o
+[ 42%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_elements/nodal_concentrated_element.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_convergence_accelerators_to_python.cpp.o
+[ 42%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTestUtilities.dir/tests/test_utilities/mpi_test_environment.cpp.o
+[ 42%] Linking CXX shared library libKratosConcentrationDiffusionCore.so
+[ 42%] Built target KratosConcentrationDiffusionCore
+[ 42%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/add_distributed_sparse_matrices_to_python.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_data_communicator_to_python.cpp.o
+[ 42%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_elements/small_displacement.cpp.o
+[ 42%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_data_value_container.cpp.o
+[ 43%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/navier_stokes_wall_condition.cpp.o
+[ 43%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_elements/small_displacement_mixed_volumetric_strain_element.cpp.o
+[ 43%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionCore.dir/thermal_conduction_application.cpp.o
+[ 43%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_dofs_to_python.cpp.o
+[ 43%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/add_mpi_communicator_to_python.cpp.o
+[ 43%] Linking CXX shared module KratosLinearSolversApplication.cpython-311-x86_64-linux-gnu.so
+[ 43%] Built target KratosLinearSolversApplication
+[ 43%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCore.dir/custom_factories/trilinos_linear_solver_factory.cpp.o
+[ 43%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_edge_based_data_structure.cpp.o
+[ 43%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_io/vtk_eigen_output.cpp.o
+[ 43%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_expression_io_to_python.cpp.o
+[ 43%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTestUtilities.dir/tests/test_utilities/mpi_test_suite.cpp.o
+[ 43%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/compute_center_of_gravity_process.cpp.o
+[ 43%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/distribute_load_on_surface_process.cpp.o
+[ 43%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/stokes_wall_condition.cpp.o
+[ 44%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/add_mpi_debug_utilities_to_python.cpp.o
+[ 44%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/impose_z_strain_process.cpp.o
+[ 44%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_factories_to_python.cpp.o
+[ 45%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/postprocess_eigenvalues_process.cpp.o
+[ 45%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_expression_iterators.cpp.o
+[ 46%] Linking CXX shared library libKratosMPICoreTestUtilities.so
+[ 46%] Built target KratosMPICoreTestUtilities
+[ 46%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCoreTest.dir/tests/cpp_tests/metis_fast_suite.cpp.o
+[ 46%] Linking CXX shared library libKratosThermalConductionCore.so
+[ 46%] Built target KratosThermalConductionCore
+[ 47%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionApplication.dir/custom_python/add_custom_strategies_to_python.cpp.o
+[ 47%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCore.dir/external_includes/amgcl_mpi_solver_impl.cpp.o
+[ 47%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_geometrical_utilities_to_python.cpp.o
+[ 47%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/set_automated_initial_variable_process.cpp.o
+[ 47%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/two_fluid_navier_stokes_wall_condition.cpp.o
+[ 47%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_flags.cpp.o
+[ 47%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/set_cartesian_local_axes_process.cpp.o
+[ 47%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/add_mpi_search_strategies_to_python.cpp.o
+[ 47%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/set_cylindrical_local_axes_process.cpp.o
+[ 47%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/add_mpi_utilities_to_python.cpp.o
+[ 47%] Building CXX object applications/MetisApplication/CMakeFiles/KratosMetisCoreTest.dir/tests/cpp_tests/test_metis_partitioning_utilities.cpp.o
+[ 47%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/set_moving_load_process.cpp.o
+[ 47%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 48%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_geometry_container.cpp.o
+[ 48%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/wall_condition.cpp.o
+[ 48%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/set_spherical_local_axes_process.cpp.o
+[ 48%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_global_pointers_to_python.cpp.o
+[ 48%] Linking CXX executable KratosMetisCoreTest
+[ 48%] Built target KratosMetisCoreTest
+[ 48%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionApplication.dir/custom_python/add_custom_strategies_to_python.cpp.o
+[ 48%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/spr_error_process.cpp.o
+[ 48%] Building CXX object kratos/mpi/CMakeFiles/KratosMPI.dir/python/kratos_mpi_python.cpp.o
+[ 48%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_io_to_python.cpp.o
+[ 48%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCore.dir/trilinos_application.cpp.o
+[ 48%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_processes/total_structural_mass_process.cpp.o
+[ 48%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_model.cpp.o
+[ 48%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_conditions/wall_condition_discontinuous.cpp.o
+[ 48%] Building CXX object applications/ConcentrationDiffusionApplication/CMakeFiles/KratosConcentrationDiffusionApplication.dir/custom_python/kratos_concentration_diffusion_python_application.cpp.o
+[ 48%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/explicit_integration_utilities.cpp.o
+[ 49%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/node_search_utility.cpp.o
+[ 49%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/perturb_geometry_base_utility.cpp.o
+[ 49%] Linking CXX shared module KratosMPI.cpython-311-x86_64-linux-gnu.so
+[ 49%] Built target KratosMPI
+[ 49%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 49%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/bingham_3d_law.cpp.o
+[ 49%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_model_part_geometry_container.cpp.o
+[ 49%] Building CXX object applications/ThermalConductionApplication/CMakeFiles/KratosThermalConductionApplication.dir/custom_python/kratos_thermal_conduction_python_application.cpp.o
+[ 49%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/perturb_geometry_sparse_utility.cpp.o
+[ 49%] Linking CXX shared library libKratosTrilinosCore.so
+[ 50%] Built target KratosTrilinosCore
+[ 50%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/containers/test_distributed_exporter.cpp.o
+[ 50%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/perturb_geometry_subgrid_utility.cpp.o
+[ 50%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_kernel_to_python.cpp.o
+[ 50%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/euler_2d_law.cpp.o
+[ 50%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/project_vector_on_surface_utility.cpp.o
+[ 50%] Linking CXX shared module KratosConcentrationDiffusionApplication.cpython-311-x86_64-linux-gnu.so
+[ 50%] Built target KratosConcentrationDiffusionApplication
+[ 50%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/strategies/builder_and_solvers/test_builder_and_solver.cpp.o
+[ 50%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/static_condensation_utility.cpp.o
+[ 50%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_nodal_data.cpp.o
+[ 50%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/containers/test_distributed_sparse_graph.cpp.o
+[ 50%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_data_communicator.cpp.o
+[ 50%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/custom_utilities/structural_analysis_element_utilities.cpp.o
+[ 50%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisCore.dir/structural_analysis_application.cpp.o
+[ 50%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/euler_3d_law.cpp.o
+[ 50%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_kratos_application_to_python.cpp.o
+[ 50%] Linking CXX shared module KratosThermalConductionApplication.cpython-311-x86_64-linux-gnu.so
+[ 50%] Built target KratosThermalConductionApplication
+[ 50%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 50%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_pointer_vector.cpp.o
+[ 50%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/fluid_constitutive_law.cpp.o
+[ 50%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_convergence_accelerators_to_python.cpp.o
+[ 51%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/herschel_bulkley_3d_law.cpp.o
+[ 51%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_data_communicator_manipulation.cpp.o
+[ 52%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_convergence_criterias_to_python.cpp.o
+[ 52%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/strategies/convergence_criteria/test_trilinos_displacement_criteria.cpp.o
+[ 52%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_pointer_vector_set.cpp.o
+[ 52%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_linear_solvers_to_python.cpp.o
+[ 52%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_2d_law.cpp.o
+[ 53%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_flag_synchronization.cpp.o
+[ 53%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_linear_solvers_to_python.cpp.o
+[ 53%] Linking CXX shared library libKratosStructuralAnalysisCore.so
+[ 54%] Built target KratosStructuralAnalysisCore
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/constitutive_laws_small_strain_application.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_processes_to_python.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_logger_to_python.cpp.o
+[ 54%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_3d_law.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_properties.cpp.o
+[ 54%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_mpi_communicator.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_m4dtable_to_python.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/strategies/convergence_criteria/test_trilinos_residual_criteria.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_mapper_to_python.cpp.o
+[ 54%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_temperature_dependent_2d_law.cpp.o
+[ 54%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_temperature_dependent_3d_law.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_schemes_to_python.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/generic_small_strain_isotropic_plasticity.cpp.o
+[ 54%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_two_fluid_2d_law.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_variables.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_mapping_variables_to_python.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/generic_small_strain_kinematic_plasticity.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_mesh_to_python.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_space_to_python.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/plasticity_isotropic_kinematic_j2.cpp.o
+[ 54%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_constitutive/newtonian_two_fluid_3d_law.cpp.o
+[ 54%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_mpi_data_communicator.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/small_strain_isotropic_plasticity_factory.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_variables_list.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/small_strain_j2_plasticity_3d.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/test_trilinos_space.cpp.o
+[ 54%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/trilinos_cpp_test_utilities.cpp.o
+[ 54%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/small_strain_j2_plasticity_plane_strain_2d.cpp.o
+[ 55%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/small_strain_kinematic_plasticity_factory.cpp.o
+[ 55%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/add_trilinos_strategies_to_python.cpp.o
+[ 56%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/trilinos_fast_suite.cpp.o
+[ 56%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/small_strains/plasticity/truss_plasticity_constitutive_law.cpp.o
+[ 56%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/alternative_d_vms_dem_coupled.cpp.o
+[ 56%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/thermal/small_strains/elastic/thermal_elastic_isotropic_3d.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/containers/test_variables_list_data_value_container.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_model_part_to_python.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/thermal/small_strains/elastic/thermal_linear_plane_strain.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_constitutive/thermal/small_strains/elastic/thermal_linear_plane_stress.cpp.o
+[ 57%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/utilities/test_cpp_test_utililies.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_processes/element_deactivation_process.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_utilities/advanced_constitutive_law_small_strain_utilities.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/elements/test_edge_based_gradient_recovery_element.cpp.o
+[ 57%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosApplication.dir/custom_python/trilinos_python_application.cpp.o
+[ 57%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/tests/cpp_tests/utilities/test_trilinos_assembling_utilities.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainCore.dir/custom_utilities/automatic_differentiation_tangent_utilities.cpp.o
+[ 57%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_mpi_environment.cpp.o
+[ 57%] Linking CXX shared library libKratosConstitutiveLawsSmallStrainCore.so
+[ 57%] Built target KratosConstitutiveLawsSmallStrainCore
+[ 57%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisApplication.dir/custom_python/add_custom_constitutive_laws_to_python.cpp.o
+[ 57%] Building CXX object applications/TrilinosApplication/CMakeFiles/KratosTrilinosCoreTest.dir/__/__/kratos/mpi/testing/mpi_testing.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_model_to_python.cpp.o
+[ 57%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisApplication.dir/custom_python/add_custom_processes_to_python.cpp.o
+[ 57%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/alternative_qs_vms_dem_coupled.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_modeler_to_python.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/elements/test_levelset_convection_element_simplex.cpp.o
+[ 57%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/sources/test_mpi_serialized_communication.cpp.o
+[ 57%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_debug_utilities.cpp.o
+[ 57%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisApplication.dir/custom_python/add_custom_strategies_to_python.cpp.o
+[ 57%] Linking CXX executable KratosTrilinosCoreTest
+[ 57%] Built target KratosTrilinosCoreTest
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainApplication.dir/custom_python/add_custom_constitutive_laws_to_python.cpp.o
+[ 57%] Linking CXX shared module KratosTrilinosApplication.cpython-311-x86_64-linux-gnu.so
+[ 57%] Built target KratosTrilinosApplication
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainApplication.dir/custom_python/add_custom_processes_to_python.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_node_to_python.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/expression/test_expression.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_operations_to_python.cpp.o
+[ 57%] Building CXX object applications/ConstitutiveLawsSmallStrainApplication/CMakeFiles/KratosConstitutiveLawsSmallStrainApplication.dir/custom_python/constitutive_laws_small_strain_python_application.cpp.o
+[ 57%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_other_utilities_to_python.cpp.o
+[ 57%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_distributed_model_part_initializer.cpp.o
+[ 58%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/axisymmetric_navier_stokes.cpp.o
+[ 59%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_parallel_environment_to_python.cpp.o
+[ 59%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_processes_to_python.cpp.o
+[ 59%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/compressible_navier_stokes_explicit_2D3N.cpp.o
+[ 59%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_gather_modelpart_utility.cpp.o
+[ 59%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 59%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/external_libraries/test_concurrent_queue.cpp.o
+[ 59%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/external_libraries/test_delaunator.cpp.o
+[ 60%] Building CXX object applications/StructuralAnalysisApplication/CMakeFiles/KratosStructuralAnalysisApplication.dir/custom_python/structural_mechanics_python_application.cpp.o
+[ 60%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/compressible_navier_stokes_explicit_2D4N.cpp.o
+[ 61%] Linking CXX shared module KratosConstitutiveLawsSmallStrainApplication.cpython-311-x86_64-linux-gnu.so
+[ 61%] Built target KratosConstitutiveLawsSmallStrainApplication
+[ 61%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/compressible_navier_stokes_explicit_3D4N.cpp.o
+[ 61%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_mpi_assign_unique_model_part_collection_tag_utility.cpp.o
+[ 62%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_mpi_coloring_utilities.cpp.o
+[ 62%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_bounding_box.cpp.o
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_brep_curve_on_surface.cpp.o
+[ 63%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/d_vms.cpp.o
+[ 63%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/d_vms_dem_coupled.cpp.o
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_brep_surface.cpp.o
+[ 63%] Linking CXX shared module KratosStructuralAnalysisApplication.cpython-311-x86_64-linux-gnu.so
+[ 63%] Built target KratosStructuralAnalysisApplication
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_brep_surface_trimmed.cpp.o
+[ 63%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/data_containers/qs_vms/qs_vms_derivative_utilities.cpp.o
+[ 63%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_parallel_fill_communicator.cpp.o
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_coupling_geometry.cpp.o
+[ 63%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/data_containers/qs_vms/qs_vms_residual_derivatives.cpp.o
+[ 63%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/distance_smoothing_element.cpp.o
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_coupling_geometry_quadrature.cpp.o
+[ 63%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_geometry.cpp.o
+[ 64%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/dynamic_vms.cpp.o
+[ 64%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_pointer_communicator.cpp.o
+[ 64%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/tests/cpp_tests/utilities/test_search_utilities.cpp.o
+[ 64%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_hexahedra_3d_20.cpp.o
+[ 64%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/embedded_ausas_navier_stokes.cpp.o
+[ 64%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/embedded_fluid_element.cpp.o
+[ 64%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_hexahedra_3d_27.cpp.o
+[ 64%] Building CXX object kratos/mpi/CMakeFiles/KratosMPICoreTest.dir/testing/mpi_testing.cpp.o
+[ 64%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_hexahedra_3d_8.cpp.o
+[ 64%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/embedded_fluid_element_discontinuous.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_2d_2.cpp.o
+[ 65%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/fic.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_2d_3.cpp.o
+[ 65%] Linking CXX executable KratosMPICoreTest
+[ 65%] Built target KratosMPICoreTest
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_2d_4.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_2d_5.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_3d_2.cpp.o
+[ 65%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/fluid_adjoint_element.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_line_3d_3.cpp.o
+[ 65%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/fluid_element.cpp.o
+[ 65%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/fractional_step.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_non_rectangular_jacobian.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_curve.cpp.o
+[ 65%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_curve_on_surface_geometry.cpp.o
+[ 66%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_curve_shape_functions.cpp.o
+[ 66%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_surface.cpp.o
+[ 66%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_surface_shape_functions.cpp.o
+[ 66%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/fractional_step_discontinuous.cpp.o
+[ 67%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/incompressible_navier_stokes_p2_p1_continuous.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_utilities.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_volume.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_volume_knot_refinement.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_nurbs_volume_shape_functions.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_point.cpp.o
+[ 67%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/navier_stokes.cpp.o
+[ 67%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_point_on_geometry.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_prism_3d_15.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_prism_3d_6.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_projection_nurbs_geometry.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_pyramid_3d_13.cpp.o
+[ 68%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/qs_vms.cpp.o
+[ 68%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/qs_vms_dem_coupled.cpp.o
+[ 68%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/spalart_allmaras.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_pyramid_3d_5.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_quadrature_point_geometry.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_quadrilateral_2d_4.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_quadrilateral_2d_8.cpp.o
+[ 68%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_quadrilateral_3d_4.cpp.o
+[ 68%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/stationary_stokes.cpp.o
+[ 69%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_quadrilateral_3d_9.cpp.o
+[ 69%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/stokes_3D.cpp.o
+[ 69%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/stokes_3D_twofluid.cpp.o
+[ 69%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/symbolic_stokes.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/two_fluid_navier_stokes.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_surface_in_nurbs_volume.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_tetrahedra_3d_10.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_tetrahedra_3d_4.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/two_fluid_navier_stokes_alpha_method.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/vms.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_2d_10.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_2d_15.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/vms_adjoint_element.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_2d_3.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_elements/weakly_compressible_navier_stokes.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/apply_compressible_navier_stokes_boundary_conditions_process.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_2d_6.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/boussinesq_force_process.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/calulate_levelset_consistent_nodal_gradient_process.cpp.o
+[ 70%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_3d_3.cpp.o
+[ 70%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/compute_pressure_coefficient_process.cpp.o
+[ 71%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/geometries/test_triangle_3d_6.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/compute_y_plus_process.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/global_pointers/test_global_pointer.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/global_pointers/test_global_pointers_container.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/distance_modification_process.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/distance_smoothing_process.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/embedded_skin_visualization_process.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/mass_conservation_check_process.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/global_pointers/test_global_pointers_vector.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/includes/test_property_accessor.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/input_output/test_base_64_encoded_output.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/input_output/test_logger.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/shock_capturing_entropy_viscosity_process.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/input_output/test_stl_io.cpp.o
+[ 72%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/shock_capturing_physics_based_process.cpp.o
+[ 72%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/integration/test_integration_info.cpp.o
+[ 73%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/integration/test_line_newton_cotes_integration_points.cpp.o
+[ 73%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_processes/two_fluids_inlet_process.cpp.o
+[ 73%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/acceleration_limitation_utilities.cpp.o
+[ 73%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/linear_solvers/test_monotonicity_solver.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/drag_utilities.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/estimate_dt_utilities.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_adjoint_slip_utilities.cpp.o
+[ 74%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modeler/test_copy_properties_modeler.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_adjoint_test_utilities.cpp.o
+[ 74%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modeler/test_create_entities_from_geometries_modeler.cpp.o
+[ 74%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modeler/test_key_plane_generation_with_refinement.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_auxiliary_utilities.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_characteristic_numbers_utilities.cpp.o
+[ 74%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modeler/test_voxel_mesh_modeler.cpp.o
+[ 74%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_element_data.cpp.o
+[ 75%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_element_utilities.cpp.o
+[ 75%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_mesh_utilities.cpp.o
+[ 75%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/fluid_test_utilities.cpp.o
+[ 75%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/custom_utilities/statistics_record.cpp.o
+[ 75%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_tetrahedra_3d_4_ausas_incised_shape_functions.cpp.o
+[ 75%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_tetrahedra_3d_4_ausas_modified_shape_functions.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_tetrahedra_3d_4_modified_shape_functions.cpp.o
+[ 76%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/fluid_dynamics_application.cpp.o
+[ 76%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCore.dir/fluid_dynamics_application_variables.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_triangle_2d_3_ausas_incised_shape_functions.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_triangle_2d_3_ausas_modified_shape_functions.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/modified_shape_functions/test_triangle_2d_3_modified_shape_functions.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_apply_ray_casting_interface_recognition_process.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_apply_ray_casting_process.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_calculate_discontinuous_distance_to_skin_process.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_calculate_distance_to_skin_process.cpp.o
+[ 76%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_calculate_embedded_nodal_variable_from_skin_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_calculate_nodal_area_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_coarsening_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_compute_nodal_gradient_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_fast_transfer_between_model_parts_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_find_conditions_neighbours_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_find_intersected_geometrical_objects_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_find_nodal_h_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_find_nodal_neighbours_process.cpp.o
+[ 77%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_flux_corrected_transport_convection_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_generic_neighbour_elements.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_mortar_mapper_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_parallel_distance_calculation_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_replace_elements_and_condition_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_set_initial_state_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_skin_detection_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_structured_mesh_generator_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/processes/test_tetrahedra_edge_swapping_process.cpp.o
+[ 78%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/cross_check_shape_functions_values.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_checks.cpp.o
+[ 79%] Linking CXX shared library libKratosFluidDynamicsCore.so
+[ 79%] Built target KratosFluidDynamicsCore
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_chunk.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_code_location.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_communicator.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_compare_elements_and_conditions_utility.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_condition.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_constraint.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_dof.cpp.o
+[ 79%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_element.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_exceptions.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_filesystem.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_key_hash.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_kratos_components.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_kratos_parameters.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_linear_master_slave_constraint.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_memory_pool.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_model_part.cpp.o
+[ 80%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_model_part_io.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_node.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_oriented_bounding_box.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_parameters.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_properties.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_registry.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_registry_access.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_serializer.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_serializer_geometry_data.cpp.o
+[ 81%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_shape_function_derivatives.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sources/test_table.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spaces/test_kratos_space.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spaces/test_ublas_space.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/sparse_matrices/test_sparse_graph_serial.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_bins_dynamic.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_bins_static.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_geometrical_objects_bins.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_kd_tree.cpp.o
+[ 82%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_octree.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/spatial_containers/test_spatial_search_result.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/builder_and_solvers/test_builder_and_solver.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/builder_and_solvers/test_explicit_builder_and_solver.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/convergence_criteria/test_displacement_criteria.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/convergence_criteria/test_mixed_generic_criteria.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/convergence_criteria/test_residual_criteria.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/schemes/test_residual_based_adjoint_bossak_scheme.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/schemes/test_schemes.cpp.o
+[ 83%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/strategies/test_bfecc_explicit_strategy.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/strategies/test_runge_kutta_explicit_strategies.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/strategies/strategies/test_strategies.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_apply_function_to_nodes_utilities.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_assign_unique_model_part_collection_tag_utility.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_atomic_utilities.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_auxiliar_model_part_utilities.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_binbased_fast_point_locator.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_brent_iteration.cpp.o
+[ 84%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_brute_force_point_locator.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_constraint_utilities.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_curve_axis_intersection.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_curve_tessellation.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_data_type_traits.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_debug_helpers.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_delaunator_utilities.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_dense_householder_qr_decomposition.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_discont_utils.cpp.o
+[ 85%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_divide_tetrahedra_3d_4.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_divide_triangle_2d_3.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_divide_triangle_3d_3.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_element_size_calculator.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_embedded_skin_utility.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_entities_utilities.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_function_parser_utility.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometrical_object.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometrical_projection_utilities.cpp.o
+[ 86%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometrical_sensitivity_utility.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometry_metric_calculator.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometry_tester.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_geometry_utils.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_integration_utilities.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_intersection_utilities.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_line_geometrical_sensitivity.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_math_utils.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_mls_shape_functions_utility.cpp.o
+[ 87%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_model_part_utilities.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_model_part_utils.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_nearest_point_utilities.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_parallel_utilities.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_plane_approximation_utility.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_polynomial_utilities.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_proxies.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_qef_utility.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_quaternion.cpp.o
+[ 88%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_result_database.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_search_utilities.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_sensitivity_builder.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_shifted_boundary_meshless_interface_utility.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_sparse_matrix_mutiplication_utilities.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_split_tetrahedra.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_stl_io.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_string_utilities.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_svd_utils.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_variable_utils.cpp.o
+[ 90%] Building CXX object kratos/CMakeFiles/KratosCoreTest.dir/tests/cpp_tests/utilities/test_xml_utilities.cpp.o
+[ 90%] Linking CXX executable KratosCoreTest
+[ 90%] Built target KratosCoreTest
+[H[2J[3J-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- No KRATOS_SOURCE_DIR is defined, using: /home/whf/KratosDev/Kratos-Release/Kratos-10.1
+-- No KRATOS_BINARY_DIR is defined, using: /home/whf/KratosDev/Kratos-Release/Kratos-10.1/build/Release
+-- No KRATOS_INSTALL_PYTHON_USING_LINKS is defined, setting to OFF
+-- No CMAKE_INSTALL_MESSAGE is defined. Setting to NEVER
+-- Found Git: /usr/bin/git (found version "2.39.2") 
+-- Additional default options were set for GCC
+-- CMAKE_SYSTEM_NAME = Linux
+-- CMAKE_CXX_COMPILER_ID = GNU
+-- CMAKE_CXX_FLAGS =  -funroll-loops -Wall -Wl,--no-as-needed -ldl -Wsuggest-override
+-- CMAKE_C_FLAGS =  -funroll-loops -Wall -Wl,--no-as-needed -ldl
+-- Found Python: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.11.2", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.11.so
+-- LTO is Disabled
+-- AR VERSION: /usr/bin/ar
+-- Python version used for the interface will be 3.11
+-- Standard install dir /home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Using OpenMP for shared memory parallelization
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Boost Include: /usr/include
+-- Boost Linkdir: 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+-- Found MPI_CXX: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+EPETRA_INCLUDE_PATH: /usr/include/trilinos
+EPETRA_LIBRARY: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so
+-- Found EPETRA: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so  
+TEUCHOS_INCLUDE_PATH: /usr/include/trilinos
+TEUCHOS_LIBRARIES: /usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscore.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosnumerics.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosparameterlist.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosremainder.so
+-- Found TEUCHOS: /usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so  
+-- Found TRIUTILS: /usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so  
+-- Found AMESOS: /usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so  
+-- Found AMESOS2: /usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so  
+-- Found AZTECOO: /usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so  
+-- Found IFPACK: /usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so  
+-- Found LOCA: /usr/lib/x86_64-linux-gnu/libtrilinos_loca.so  
+-- Found ML: /usr/lib/x86_64-linux-gnu/libtrilinos_ml.so  
+-- Found NOX: /usr/lib/x86_64-linux-gnu/libtrilinos_nox.so  
+-- Found EPETRAEXT: /usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so  
+-- Found ZOLTAN: /usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so  
+-- Trilinos packages found.
+-- TRILINOS_INCLUDE_DIR: /usr/include/trilinos;/usr/include/trilinos
+-- TRILINOS_LIBRARIES: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscore.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosnumerics.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosparameterlist.so;/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosremainder.so;/usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so;/usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so;/usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so;/usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so;/usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so;/usr/lib/x86_64-linux-gnu/libtrilinos_loca.so;/usr/lib/x86_64-linux-gnu/libtrilinos_ml.so;/usr/lib/x86_64-linux-gnu/libtrilinos_nox.so;/usr/lib/x86_64-linux-gnu/libtrilinos_noxepetra.so;/usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so;/usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.13") 
+
+-- CMAKE_BUILD_TYPE ........ Release
+
+WARNING: YOUR GIDPOST IS BEING COMPILED  WITHOUT DEBUG (ALL ASSERTS WILL BE AVOIDED)
+**** configuring Kratos to be compiled with MPI-Support ****
+-- Configuring applications (ENV):
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/LinearSolversApplication'
+**** configuring KratosLinearSolversApplication ****
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/FluidDynamicsApplication'
+**** configuring KratosFluidDynamicsApplication ****
+-- Enabling trilinos extension for KratosFluidDynamicsApplication
+-- [Info] Adding dependency TrilinosApplication
+**** Configuring KratosTrilinosApplication ****
+**** WARNING: Manually disabled Amesos2-Solver ****
+-- Trilinos libs to be installed: /usr/lib/x86_64-linux-gnu/libtrilinos_epetra.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscomm.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchoscore.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosnumerics.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosparameterlist.so/usr/lib/x86_64-linux-gnu/libtrilinos_teuchosremainder.so/usr/lib/x86_64-linux-gnu/libtrilinos_triutils.so/usr/lib/x86_64-linux-gnu/libtrilinos_amesos.so/usr/lib/x86_64-linux-gnu/libtrilinos_amesos2.so/usr/lib/x86_64-linux-gnu/libtrilinos_aztecoo.so/usr/lib/x86_64-linux-gnu/libtrilinos_ifpack.so/usr/lib/x86_64-linux-gnu/libtrilinos_loca.so/usr/lib/x86_64-linux-gnu/libtrilinos_ml.so/usr/lib/x86_64-linux-gnu/libtrilinos_nox.so/usr/lib/x86_64-linux-gnu/libtrilinos_noxepetra.so/usr/lib/x86_64-linux-gnu/libtrilinos_epetraext.so/usr/lib/x86_64-linux-gnu/libtrilinos_zoltan.so
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/ConstitutiveLawsSmallStrainApplication'
+**** configuring KratosConstitutiveLawsSmallStrainApplication ****
+-- [Info] Adding dependency StructuralAnalysisApplication
+**** configuring KratosStructuralAnalysisApplication ****
+CMake Warning at CMakeLists.txt:640 (message):
+  [Warning] Application
+  '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/TrilinosApplication'
+  was already added
+
+
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/MetisApplication'
+**** configuring KratosMetisApplication ****
+-- METIS library found
+-- METIS_INCLUDE_DIR: /usr/include
+-- METIS_LIBRARIES: /usr/lib/x86_64-linux-gnu/libmetis.so
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/ConcentrationDiffusionApplication'
+**** configuring KratosConcentrationDiffusionApplication ****
+	Adding application '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/ThermalConductionApplication'
+**** configuring KratosThermalConductionApplication ****
+CMake Warning at CMakeLists.txt:640 (message):
+  [Warning] Application
+  '/home/whf/KratosDev/Kratos-Release/Kratos-10.1/scripts/../applications/StructuralAnalysisApplication'
+  was already added
+
+
+
+***********************************************************************
+
+        LIST OF APPLICATIONS THAT ARE GOING TO BE COMPILED:
+
+        LinearSolversApplication
+        FluidDynamicsApplication
+        ConstitutiveLawsSmallStrainApplication
+        TrilinosApplication
+        MetisApplication
+        ConcentrationDiffusionApplication
+        ThermalConductionApplication
+        StructuralAnalysisApplication
+
+        APPLICATIONS ADDED TO COMPILATION THROUGH DEPENDENCIES:
+
+
+***********************************************************************
+
+
+List of upcoming API-breaking and behavior changes:
+	 Geometry 'Dimension' removed: https://github.com/KratosMultiphysics/Kratos/pull/10977
+	 Geometry old projection methods deprecation: https://github.com/KratosMultiphysics/Kratos/pull/9024
+	 Geometry old closest point methods deprecation: https://github.com/KratosMultiphysics/Kratos/pull/9243
+	 Model 'CreateModelPart' behavior change (no error thrown if model part exists): https://github.com/KratosMultiphysics/Kratos/pull/9598
+	 Make GetIntegrationMethod method of Condition const: https://github.com/KratosMultiphysics/Kratos/pull/9769
+	 Behavior change of ModelPart.GetProperties (MeshIndex removed): https://github.com/KratosMultiphysics/Kratos/pull/9774
+	 Behavior change of Testing. Please ensure you use KRATOS_EXPECT for testing instead of KRATOS_CHECK
+-- clipper : /home/whf/KratosDev/Kratos-Release/Kratos-10.1/external_libraries/clipper
+-- tinyexpr : /home/whf/KratosDev/Kratos-Release/Kratos-10.1/external_libraries/tinyexpr/tinyexpr/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/whf/KratosDev/Kratos-Release/Kratos-10.1/build/Release
+[  1%] Built target tinyexpr
+[  1%] Built target KratosVersion
+[  1%] Built target gidpost
+[  1%] Built target gtest
+[  2%] Built target clipper
+[  3%] Built target gmock
+[  3%] Built target gtest_main
+[  3%] Built target gmock_main
+[ 33%] Built target KratosCore
+[ 33%] Built target KratosLinearSolversCore
+[ 34%] Built target KratosMetisCore
+[ 35%] Built target KratosMPICore
+[ 36%] Built target KratosConcentrationDiffusionCore
+[ 37%] Built target KratosCoreTestUtilities
+[ 37%] Built target KratosMetisApplication
+[ 38%] Built target KratosLinearSolversApplication
+[ 39%] Built target KratosThermalConductionCore
+[ 40%] Built target KratosTrilinosCore
+[ 41%] Built target KratosMPI
+[ 41%] Built target KratosMetisCoreTest
+[ 42%] Built target KratosConcentrationDiffusionApplication
+[ 43%] Built target KratosMPICoreTestUtilities
+[ 43%] Built target KratosThermalConductionApplication
+[ 48%] Built target KratosStructuralAnalysisCore
+[ 49%] Built target KratosTrilinosApplication
+[ 50%] Built target KratosTrilinosCoreTest
+[ 51%] Built target KratosStructuralAnalysisApplication
+[ 53%] Built target KratosMPICoreTest
+[ 54%] Built target KratosConstitutiveLawsSmallStrainCore
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_other_utilities_to_python.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_properties_to_python.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_registry_to_python.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_response_functions_to_python.cpp.o
+[ 54%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_search_strategies_to_python.cpp.o
+[ 55%] Built target KratosConstitutiveLawsSmallStrainApplication
+[ 56%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_serializer_to_python.cpp.o
+[ 65%] Built target KratosFluidDynamicsCore
+[ 65%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/fluid_dynamics_fast_suite.cpp.o
+[ 89%] Built target KratosCoreTest
+[ 89%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/add_custom_constitutive_laws_to_python.cpp.o
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/python/add_other_utilities_to_python.cpp: In function ‘void Kratos::Python::AddOtherUtilitiesToPython(pybind11::module&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/python/add_other_utilities_to_python.cpp:256:45: warning: ‘static int Kratos::Timer::SetOuputFile(const std::string&)’ is deprecated: Please use SetOutputFile instead. Will be removed eventually [-Wdeprecated-declarations]
+  256 |         .def_static("SetOuputFile", &Timer::SetOuputFile) // TODO: Remove this line eventually, it is a typo
+      |                                             ^~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/python/add_other_utilities_to_python.cpp:36:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/timer.h:205:16: note: declared here
+  205 |     static int SetOuputFile(std::string const& rOutputFileName);
+      |                ^~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/python/add_other_utilities_to_python.cpp:257:47: warning: ‘static int Kratos::Timer::CloseOuputFile()’ is deprecated: Please use CloseOutputFile instead. Will be removed eventually [-Wdeprecated-declarations]
+  257 |         .def_static("CloseOuputFile", &Timer::CloseOuputFile) // TODO: Remove this line eventually, it is a typo
+      |                                               ^~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/timer.h:212:16: note: declared here
+  212 |     static int CloseOuputFile();
+      |                ^~~~~~~~~~~~~~
+[ 89%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_sparse_matrices_to_python.cpp.o
+[ 89%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/add_custom_processes_to_python.cpp.o
+[ 89%] Building CXX object applications/FluidDynamicsApplication/trilinos_extension/CMakeFiles/KratosFluidDynamicsTrilinosExtension.dir/custom_python/add_trilinos_processes_to_python.cpp.o
+[ 89%] Building CXX object applications/FluidDynamicsApplication/trilinos_extension/CMakeFiles/KratosFluidDynamicsTrilinosExtension.dir/custom_python/add_trilinos_schemes_to_python.cpp.o
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_processes/trilinos_spalart_allmaras_turbulence_model.h:24,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_processes_to_python.cpp:30:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/mpi/includes/mpi_communicator.h: In constructor ‘Kratos::MPICommunicator::MPICommunicator(Kratos::VariablesList*)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/mpi/includes/mpi_communicator.h:707:203: warning: ‘static Kratos::DataCommunicator& Kratos::DataCommunicator::GetDefault()’ is deprecated: This function is deprecated, please retrieve the DataCommunicator through the ModelPart (or by name in special cases) [-Wdeprecated-declarations]
+  707 |     KRATOS_DEPRECATED_MESSAGE("This constructor is deprecated, please use the one that accepts a DataCommunicator") MPICommunicator(VariablesList* Variables_list) : BaseType(DataCommunicator::GetDefault()), mpVariables_list(Variables_list)
+      |                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/kratos_components.h:26,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/containers/data_value_container.h:26,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/process_info.h:27,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/model_part.h:27,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_processes_to_python.cpp:21:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/data_communicator.h:654:30: note: declared here
+  654 |     static DataCommunicator& GetDefault();
+      |                              ^~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_schemes_to_python.cpp:31:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/solving_strategies/schemes/scheme.h:21,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_schemes_to_python.cpp:23:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+[ 89%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_strategies_to_python.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_testing_to_python.cpp.o
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::TrilinosSpace<Epetra_FECrsMatrix, Epetra_FEVector>; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = Epetra_FECrsMatrix; TSystemVectorType = Epetra_FEVector]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:351:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::TrilinosSpace<Epetra_FECrsMatrix, Epetra_FEVector>; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = Epetra_FECrsMatrix; TSystemVectorType = Epetra_FEVector]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:286:13:   required from ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Update(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::TrilinosSpace<Epetra_FECrsMatrix, Epetra_FEVector>; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = Epetra_FECrsMatrix; TSystemVectorType = Epetra_FEVector]’
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:270:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+[ 89%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/add_variable_utils_to_python.cpp.o
+[ 89%] Building CXX object kratos/CMakeFiles/Kratos.dir/python/kratos_python.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_adjoint_schemes.cpp.o
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/tests/cpp_tests/test_adjoint_schemes.cpp:32:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/solving_strategies/schemes/scheme.h:21,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/tests/cpp_tests/test_adjoint_schemes.cpp:25:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_alternative_d_vms_dem_coupled_element.cpp.o
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:351:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:286:13:   required from ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Update(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:270:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/trilinos_extension/CMakeFiles/KratosFluidDynamicsTrilinosExtension.dir/custom_python/add_trilinos_strategies_to_python.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/trilinos_extension/CMakeFiles/KratosFluidDynamicsTrilinosExtension.dir/custom_python/add_trilinos_utilities_to_python.cpp.o
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_processes/trilinos_spalart_allmaras_turbulence_model.h:24,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_utilities/trilinos_fractional_step_settings.h:14,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_utilities_to_python.cpp:30:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/mpi/includes/mpi_communicator.h: In constructor ‘Kratos::MPICommunicator::MPICommunicator(Kratos::VariablesList*)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/mpi/includes/mpi_communicator.h:707:203: warning: ‘static Kratos::DataCommunicator& Kratos::DataCommunicator::GetDefault()’ is deprecated: This function is deprecated, please retrieve the DataCommunicator through the ModelPart (or by name in special cases) [-Wdeprecated-declarations]
+  707 |     KRATOS_DEPRECATED_MESSAGE("This constructor is deprecated, please use the one that accepts a DataCommunicator") MPICommunicator(VariablesList* Variables_list) : BaseType(DataCommunicator::GetDefault()), mpVariables_list(Variables_list)
+      |                                                                                                                                                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/kratos_components.h:26,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/containers/data_value_container.h:26,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/process_info.h:27,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/model_part.h:27,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/trilinos_extension/custom_python/add_trilinos_utilities_to_python.cpp:22:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/data_communicator.h:654:30: note: declared here
+  654 |     static DataCommunicator& GetDefault();
+      |                              ^~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_alternative_qs_vms_dem_coupled_element.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/add_custom_response_functions_to_python.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/add_custom_strategies_to_python.cpp.o
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_strategies_to_python.cpp:36:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/solving_strategies/schemes/scheme.h:21,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/solving_strategies/builder_and_solvers/builder_and_solver.h:24,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/solver_settings.h:14,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_strategies_to_python.cpp:21:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In member function ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Predict(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:351:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:362:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  362 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h: In instantiation of ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::AdditionalUpdateOperations(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:286:13:   required from ‘void Kratos::ResidualBasedPredictorCorrectorVelocityBossakSchemeTurbulent<TSparseSpace, TDenseSpace>::Update(Kratos::ModelPart&, DofsArrayType&, TSystemMatrixType&, TSystemVectorType&, TSystemVectorType&) [with TSparseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::compressed_matrix<double>, boost::numeric::ublas::vector<double> >; TDenseSpace = Kratos::UblasSpace<double, boost::numeric::ublas::matrix<double>, boost::numeric::ublas::vector<double> >; DofsArrayType = Kratos::PointerVectorSet<Kratos::Dof<double> >; TSystemMatrixType = boost::numeric::ublas::compressed_matrix<double>; TSystemVectorType = boost::numeric::ublas::vector<double>]’
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:270:14:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_strategies/schemes/residualbased_predictorcorrector_velocity_bossak_scheme_turbulent.h:303:44: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  303 |             OpenMPUtils::DivideInPartitions(rModelPart.Nodes().size(), NumThreads, NodePartition);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/add_custom_utilities_to_python.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsApplication.dir/custom_python/fluid_dynamics_python_application.cpp.o
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_utilities_to_python.cpp:29:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h: In member function ‘void Kratos::DynamicSmagorinskyUtils::StoreCoarseMesh()’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h:109:40: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  109 |         OpenMPUtils::DivideInPartitions(mCoarseMesh.size(),NumThreads,ElementPartition);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h:24:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h: In member function ‘void Kratos::DynamicSmagorinskyUtils::CalculateC()’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h:152:40: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  152 |         OpenMPUtils::DivideInPartitions(mCoarseMesh.size(),NumThreads,CoarseElementPartition);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h:153:40: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  153 |         OpenMPUtils::DivideInPartitions(mrModelPart.Elements().size(),NumThreads,FineElementPartition);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h: In member function ‘void Kratos::DynamicSmagorinskyUtils::CorrectFlagValues(Kratos::Variable<double>&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/dynamic_smagorinsky_utilities.h:311:40: warning: ‘static void Kratos::OpenMPUtils::DivideInPartitions(int, int, PartitionVector&)’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  311 |         OpenMPUtils::DivideInPartitions(mrModelPart.NumberOfNodes(),NumThreads,NodePartition);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:158:24: note: declared here
+  158 |     static inline void DivideInPartitions(
+      |                        ^~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_utilities_to_python.cpp:35:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h: In member function ‘void Kratos::IntegrationPointToNodeTransformationUtility<TDim, TNumNodes>::TransformFromIntegrationPointsToNodes(const Kratos::Variable<TDataType>&, Kratos::ModelPart&) const’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:69:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   69 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:82:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Element, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Element>, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Element>*, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   82 |       OpenMPUtils::PartitionedIterators(rModelPart.Elements(),ElemBegin,ElemEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:108:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  108 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_axisymmetric_navier_stokes_element.cpp.o
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h: In instantiation of ‘void Kratos::IntegrationPointToNodeTransformationUtility<TDim, TNumNodes>::TransformFromIntegrationPointsToNodes(const Kratos::Variable<TDataType>&, Kratos::ModelPart&) const [with TVariableType = double; unsigned int TDim = 2; unsigned int TNumNodes = 3]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_utilities_to_python.cpp:147:13:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:69:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   69 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:82:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Element, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Element>, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Element>*, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   82 |       OpenMPUtils::PartitionedIterators(rModelPart.Elements(),ElemBegin,ElemEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:108:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  108 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h: In instantiation of ‘void Kratos::IntegrationPointToNodeTransformationUtility<TDim, TNumNodes>::TransformFromIntegrationPointsToNodes(const Kratos::Variable<TDataType>&, Kratos::ModelPart&) const [with TVariableType = double; unsigned int TDim = 3; unsigned int TNumNodes = 4]’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_python/add_custom_utilities_to_python.cpp:151:13:   required from here
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:69:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   69 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:82:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Element, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Element>, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Element>*, std::vector<Kratos::intrusive_ptr<Kratos::Element>, std::allocator<Kratos::intrusive_ptr<Kratos::Element> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+   82 |       OpenMPUtils::PartitionedIterators(rModelPart.Elements(),ElemBegin,ElemEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/FluidDynamicsApplication/custom_utilities/integration_point_to_node_transformation_utility.h:108:40: warning: ‘static void Kratos::OpenMPUtils::PartitionedIterators(TVector&, typename TVector::iterator&, typename TVector::iterator&) [with TVector = Kratos::PointerVectorSet<Kratos::Node, Kratos::IndexedObject, std::less<long unsigned int>, std::equal_to<long unsigned int>, Kratos::intrusive_ptr<Kratos::Node>, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >; typename TVector::iterator = boost::iterators::indirect_iterator<__gnu_cxx::__normal_iterator<Kratos::intrusive_ptr<Kratos::Node>*, std::vector<Kratos::intrusive_ptr<Kratos::Node>, std::allocator<Kratos::intrusive_ptr<Kratos::Node> > > >, boost::use_default, boost::use_default, boost::use_default, boost::use_default>]’ is deprecated: This is legacy, please use the "ParallelUtilities" instead [-Wdeprecated-declarations]
+  108 |       OpenMPUtils::PartitionedIterators(rModelPart.Nodes(),NodesBegin,NodesEnd);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/utilities/openmp_utils.h:179:17: note: declared here
+  179 |     static void PartitionedIterators(TVector& rVector,
+      |                 ^~~~~~~~~~~~~~~~~~~~
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_compressible_navier_stokes_explicit_conservation.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_compressible_navier_stokes_explicit_element.cpp.o
+[ 90%] Linking CXX shared module KratosFluidDynamicsTrilinosExtension.cpython-311-x86_64-linux-gnu.so
+[ 90%] Built target KratosFluidDynamicsTrilinosExtension
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_d_vms_dem_coupled_element.cpp.o
+[ 90%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_distance_modification_process.cpp.o
+[ 90%] Linking CXX shared module Kratos.cpython-311-x86_64-linux-gnu.so
+[ 95%] Built target Kratos
+[ 95%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_drag_utils.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_embedded_ausas_navier_stokes_wall_condition.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_embedded_fluid_element.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_embedded_fluid_element_discontinuous.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_embedded_navier_stokes_element.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_embedded_skin_visualization_process.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_estimate_dt_utilities.cpp.o
+[ 96%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_fluid_calculation_utilities.cpp.o
+[ 97%] Linking CXX shared module KratosFluidDynamicsApplication.cpython-311-x86_64-linux-gnu.so
+[ 97%] Built target KratosFluidDynamicsApplication
+[ 97%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_fluid_characteristic_numbers_utilities.cpp.o
+[ 97%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_fluid_dynamics_constitutive_laws.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_fluid_element_data.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_fluid_mesh_utilities.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_incompressible_navier_stokes_p2_p1_continuous_element.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_navier_stokes_p2_p1_continuous_wall_condition.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_navier_stokes_symbolic_element.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_navier_stokes_wall_condition.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_qs_vms_adjoint_element.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_qs_vms_dem_coupled_element.cpp.o
+[ 98%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_qs_vms_element.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_shock_capturing_entropy_viscosity_process.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_shock_capturing_physics_based_process.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_statistics_utilities.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_stokes_symbolic_element.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_stokes_two_fluid.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_two_fluid_navier_stokes_element.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_two_fluid_navier_stokes_element_alpha_method.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_vorticity_utilities.cpp.o
+[ 99%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/tests/cpp_tests/test_weakly_compressible_navier_stokes_element.cpp.o
+[100%] Building CXX object applications/FluidDynamicsApplication/CMakeFiles/KratosFluidDynamicsCoreTest.dir/__/__/kratos/testing/testing.cpp.o
+[100%] Linking CXX executable KratosFluidDynamicsCoreTest
+[100%] Built target KratosFluidDynamicsCoreTest
+Install the project...
+-- Install configuration: "Release"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosCoreTestUtilities.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/test/KratosCoreTest" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/Kratos.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosMPICoreTestUtilities.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/test/KratosMPICoreTest" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosMPICore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosMPI.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosLinearSolversCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosLinearSolversApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/test/KratosFluidDynamicsCoreTest" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosFluidDynamicsCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosFluidDynamicsApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/test/KratosTrilinosCoreTest" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosTrilinosCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosTrilinosApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosFluidDynamicsTrilinosExtension.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosStructuralAnalysisCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosStructuralAnalysisApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosConstitutiveLawsSmallStrainCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosConstitutiveLawsSmallStrainApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/test/KratosMetisCoreTest" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosMetisCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosMetisApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosConcentrationDiffusionCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosConcentrationDiffusionApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/libKratosThermalConductionCore.so" to "$ORIGIN/../libs"
+-- Set runtime path of "/home/whf/KratosDev/Kratos-Release/Kratos-10.1/bin/Release/libs/KratosThermalConductionApplication.cpython-311-x86_64-linux-gnu.so" to "$ORIGIN/../libs"
+-- Trying to install python stub files to enable python hinting support for cpp libraries in IDEs...
+Please install mypy using  "pip install mypy" to generate pyi stub files for libraries generated by pybind11.
+
+
+
+-------2025.1.3------
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp: In member function ‘virtual void Kratos::BaseSolidElement::InitializeSolutionStep(const Kratos::ProcessInfo&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp:138:73: warning: ‘virtual void Kratos::ConstitutiveLaw::InitializeSolutionStep(const Kratos::Properties&, const GeometryType&, const Kratos::Vector&, const Kratos::ProcessInfo&)’ is deprecated: Please do not use this method - Use InitializeMaterialResponse instead" [-Wdeprecated-declarations]
+  138 |             mConstitutiveLawVector[point_number]->InitializeSolutionStep( r_properties, r_geom, row( N_values, point_number ), rCurrentProcessInfo);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/element.h:24,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.h:22,
+                 from /home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp:24:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/constitutive_law.h:1017:18: note: declared here
+ 1017 |     virtual void InitializeSolutionStep(const Properties& rMaterialProperties,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp: In member function ‘virtual void Kratos::BaseSolidElement::InitializeNonLinearIteration(const Kratos::ProcessInfo&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp:153:75: warning: ‘virtual void Kratos::ConstitutiveLaw::InitializeNonLinearIteration(const Kratos::Properties&, const GeometryType&, const Kratos::Vector&, const Kratos::ProcessInfo&)’ is deprecated: Please do not use this method - There is no equivalent for this" [-Wdeprecated-declarations]
+  153 |         mConstitutiveLawVector[point_number]->InitializeNonLinearIteration( r_properties, r_geometry, row( N_values, point_number ), rCurrentProcessInfo);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/constitutive_law.h:1047:18: note: declared here
+ 1047 |     virtual void InitializeNonLinearIteration(const Properties& rMaterialProperties,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp: In member function ‘virtual void Kratos::BaseSolidElement::FinalizeNonLinearIteration(const Kratos::ProcessInfo&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp:167:73: warning: ‘virtual void Kratos::ConstitutiveLaw::FinalizeNonLinearIteration(const Kratos::Properties&, const GeometryType&, const Kratos::Vector&, const Kratos::ProcessInfo&)’ is deprecated: Please do not use this method - There is no equivalent for this" [-Wdeprecated-declarations]
+  167 |         mConstitutiveLawVector[point_number]->FinalizeNonLinearIteration( r_properties, r_geometry, row( N_values, point_number ), rCurrentProcessInfo);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/constitutive_law.h:1063:18: note: declared here
+ 1063 |     virtual void FinalizeNonLinearIteration(const Properties& rMaterialProperties,
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp: In member function ‘virtual void Kratos::BaseSolidElement::FinalizeSolutionStep(const Kratos::ProcessInfo&)’:
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/applications/StructuralAnalysisApplication/custom_elements/base_solid_element.cpp:228:71: warning: ‘virtual void Kratos::ConstitutiveLaw::FinalizeSolutionStep(const Kratos::Properties&, const GeometryType&, const Kratos::Vector&, const Kratos::ProcessInfo&)’ is deprecated: Please do not use this method - Use FinalizeMaterialResponse instead" [-Wdeprecated-declarations]
+  228 |             mConstitutiveLawVector[point_number]->FinalizeSolutionStep( r_properties, r_geometry, row( N_values, point_number ), rCurrentProcessInfo);
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/whf/KratosDev/Kratos-Release/Kratos-10.1/kratos/includes/constitutive_law.h:1031:18: note: declared here
+ 1031 |     virtual void FinalizeSolutionStep(const Properties& rMaterialProperties,
+      |                  ^~~~~~~~~~~~~~~~~~~~
