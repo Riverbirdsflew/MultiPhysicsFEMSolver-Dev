@@ -8,8 +8,7 @@
 //  License:         BSD License
 //                   Kratos default license: kratos/license.txt
 //
-//  Main authors:    Alejandro Cornejo Velazquez
-//                   Riccardo Rossi
+//  Main authors:    whf
 //
 
 #pragma once
@@ -24,41 +23,27 @@
 // Project includes
 #include "includes/kratos_application.h"
 
+// Elasticity Constitutive laws
+#include "custom_constitutive/elasticity/small_strain_j2_elasticity_3d"
+#include "custom_constitutive/elasticity/small_strain_j2_elasticity_plane_strain"
+#include "custom_constitutive/elasticity/small_strain_j2_elasticity_plane_stress"
+
 // Plasticity Constitutive laws
-#include "custom_constitutive/small_strains/plasticity/small_strain_isotropic_plasticity_factory.h"
-#include "custom_constitutive/small_strains/plasticity/generic_small_strain_isotropic_plasticity.h"
-#include "custom_constitutive/small_strains/plasticity/small_strain_j2_plasticity_3d.h"
-#include "custom_constitutive/small_strains/plasticity/small_strain_j2_plasticity_plane_strain_2d.h"
-
-// Integrators
-#include "custom_constitutive/auxiliary_files/cl_integrators/generic_cl_integrator_plasticity.h"
-#include "custom_constitutive/auxiliary_files/cl_integrators/generic_cl_integrator_kinematic_plasticity.h"
-
-
-// Yield surfaces
-#include "custom_constitutive/auxiliary_files/yield_surfaces/generic_yield_surface.h"
-#include "custom_constitutive/auxiliary_files/yield_surfaces/von_mises_yield_surface.h"
-
-// Thermal yield surfaces
-#include "custom_constitutive/thermal/auxiliary_files/thermal_yield_surfaces/thermal_von_mises_yield_surface.h"
-
-// Plastic potentials
-#include "custom_constitutive/auxiliary_files/plastic_potentials/generic_plastic_potential.h"
-#include "custom_constitutive/auxiliary_files/plastic_potentials/von_mises_plastic_potential.h"
+#include "custom_constitutive/plasticity/small_strain_j2_plasticity_factory.h"
+#include "custom_constitutive/plasticity/small_strain_j2_plasticity_3d.h"
+#include "custom_constitutive/plasticity/small_strain_j2_plasticity_plane_strain.h"
+#include "custom_constitutive/plasticity/small_strain_j2_plasticity_plane_stress.h"
 
 // Rules of mixtures
 
 // Thermal CL
-#include "custom_constitutive/thermal/small_strains/elastic/thermal_elastic_isotropic_3d.h"
-#include "custom_constitutive/thermal/small_strains/elastic/thermal_linear_plane_strain.h"
-#include "custom_constitutive/thermal/small_strains/elastic/thermal_linear_plane_stress.h"
-#include "custom_constitutive/thermal/small_strains/plastic/thermal_plastic_isotropic_3d.h"
-#include "custom_constitutive/thermal/small_strains/plastic/thermal_plastic_linear_plane_strain.h"
-#include "custom_constitutive/thermal/small_strains/plastic/thermal_plastic_linear_plane_stress.h"
-#include "custom_constitutive/thermal/small_strains/plastic/generic_small_strain_thermal_isotropic_plasticity.h"
-#include "custom_constitutive/thermal/small_strains/plastic/generic_small_strain_thermal_isotropic_plasticity_plane_stress.h"
-#include "custom_constitutive/thermal/small_strains/plastic/small_strain_j2_thermal_plasticity_3d.h"
-#include "custom_constitutive/thermal/small_strains/plastic/small_strain_j2_thermal_plasticity_plane_strain_2d.h"
+#include "custom_constitutive/thermal/elastic/small_strain_j2_thermal_elasticity_3d.h"
+#include "custom_constitutive/thermal/elastic/small_strain_j2_thermal_elasticity_plane_strain.h"
+#include "custom_constitutive/thermal/elastic/small_strain_j2_thermal_elasticity_plane_stress.h"
+#include "custom_constitutive/thermal/plastic/small_strain_j2_thermal_plasticity_3d.h"
+#include "custom_constitutive/thermal/plastic/small_strain_j2_thermal_plasticity_plane_strain.h"
+#include "custom_constitutive/thermal/plastic/small_strain_j2_thermal_plasticity_plane_stress.h"
+
 
 namespace Kratos {
 
@@ -211,75 +196,23 @@ private:
     ///@{
 
 
+    // Elasticity laws
+    const SmallStrainJ2Elasticity3D mSmallStrainJ2Elasticity3D;
+    const SmallStrainJ2ElasticityPlaneStrain mSmallStrainJ2ElasticityPlaneStrain;
+    const SmallStrainJ2ElasticityPlaneStress mSmallStrainJ2ElasticityPlaneStress;
+    
     // Plasticity laws
-    const SmallStrainIsotropicPlasticityFactory mSmallStrainIsotropicPlasticityFactory;
-
-    //Damage laws
-
-    /// Plasticity
-    /* Small strain */
-    const GenericSmallStrainIsotropicPlasticity <GenericConstitutiveLawIntegratorPlasticity<VonMisesYieldSurface<VonMisesPlasticPotential<3>>>> mSmallStrainIsotropicPlasticityPlaneStrainVonMisesVonMises;
-    const GenericSmallStrainIsotropicPlasticity <GenericConstitutiveLawIntegratorPlasticity<VonMisesYieldSurface<VonMisesPlasticPotential<6>>>> mSmallStrainIsotropicPlasticity3DVonMisesVonMises;
     const SmallStrainJ2Plasticity3D mSmallStrainJ2Plasticity3D;
-    const SmallStrainJ2PlasticityPlaneStrain2D mSmallStrainJ2PlasticityPlaneStrain2D;
-
-    // Plastic Damage Model
-
-
-    /* Finite strain Isotropic plasticity*/
-
-
-    /* Finite strain Kinematic plasticity*/
-
-
-    /// Damage
-    /* Small strain 3D */
-
-    /* Small strain 2D */
-
-
-    /* Small strain  plane stress 2D */
-
-
-    // HCF (High Cycle Fatigue)
-
-
-
-    // d+d- laws (3D)
-
-
-    // d+d- laws (2D)
-
-
-    // Orthotropic Damage
-
-
-    // Rules of mixtures
-
-
-    // Anisotropic law
-
+    const SmallStrainJ2PlasticityPlaneStrain mSmallStrainJ2PlasticityPlaneStrain;
+    const SmallStrainJ2PlasticityPlaneStress mSmallStrainJ2PlasticityPlaneStress;
 
     // Thermal CL
-    const ThermalElasticIsotropic3D mThermalElasticIsotropic3D;
-    const ThermalLinearPlaneStrain mThermalLinearPlaneStrain;
-    const ThermalLinearPlaneStress mThermalLinearPlaneStress;
-    const ThermalPlasticIsotropic3D mThermalPlasticIsotropic3D;
-    const ThermalPlasticLinearPlaneStrain mThermalPlasticLinearPlaneStrain;
-    const ThermalPlasticLinearPlaneStress mThermalPlasticLinearPlaneStress;
-    const GenericSmallStrainThermalIsotropicPlasticity <GenericConstitutiveLawIntegratorPlasticity<ThermalVonMisesYieldSurface<VonMisesPlasticPotential<6>>>> mSmallStrainThermalIsotropicPlasticity3DVonMisesVonMises;
-    const GenericSmallStrainThermalIsotropicPlasticity <GenericConstitutiveLawIntegratorPlasticity<ThermalVonMisesYieldSurface<VonMisesPlasticPotential<3>>>> mSmallStrainThermalIsotropicPlasticityPlaneStressVonMisesVonMises;
-
+    const SmallStrainJ2ThermalElasticity3D mSmallStrainJ2ThermalElasticity3D;
+    const SmallStrainJ2ThermalElasticityPlaneStrain mSmallStrainJ2ThermalElasticityPlaneStrain;
+    const SmallStrainJ2ThermalElasticityPlaneStress mSmallStrainJ2ThermalElasticityPlaneStress;
     const SmallStrainJ2ThermalPlasticity3D mSmallStrainJ2ThermalPlasticity3D;
-    const SmallStrainJ2ThermalPlasticityPlaneStrain2D mSmallStrainJ2ThermalPlasticityPlaneStrain2D;
-
-    /// Thermal Damage
-    /* Small strain 3D */
-
-
-    /* Small strain 2D */
-
-    // Thermal plane stress damage
+    const SmallStrainJ2ThermalPlasticityPlaneStrain mSmallStrainJ2ThermalPlasticityPlaneStrain;
+    const SmallStrainJ2ThermalPlasticityPlaneStress mSmallStrainJ2ThermalPlasticityPlaneStress;
 
 
     ///@}

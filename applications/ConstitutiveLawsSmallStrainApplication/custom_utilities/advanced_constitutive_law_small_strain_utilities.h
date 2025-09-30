@@ -478,25 +478,6 @@ class KRATOS_API(CONSTITUTIVE_LAWS_SMALL_STRAIN_APPLICATION) AdvancedConstitutiv
     static double MacaullyBrackets(const double Number);
 
     /**
-     * @brief This substracts the thermal strain contribution to a vector
-     */
-    static void SubstractThermalStrain(
-        ConstitutiveLaw::StrainVectorType &rStrainVector,
-        const double ReferenceTemperature,
-        ConstitutiveLaw::Parameters &rParameters,
-        const bool IsPlaneStrain = false
-        );
-        
-     /**
-     * @brief This substracts the thermal strain increment contribution to a vector
-     */
-    static void SubstractThermalStrainIncrement(
-        ConstitutiveLaw::StrainVectorType &rStrainVector,
-        ConstitutiveLaw::Parameters &rParameters,
-        const bool IsPlaneStrain = false
-        );
-
-    /**
      * @brief This retrieves an interpolated nodal variable to a GP
      */
     static double CalculateInGaussPoint(

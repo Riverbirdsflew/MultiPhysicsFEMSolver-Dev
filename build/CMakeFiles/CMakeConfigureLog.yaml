@@ -24,9 +24,9 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-      鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:11銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/9/30 21:50:23銆?
       
-      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
         姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
         宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
@@ -35,25 +35,25 @@ events:
         姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
         姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
       ClCompile:
-        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.exe
+        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx86\\x86\\cl.exe
       FinalizeBuildStatus:
         姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
         姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-      宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
       
       宸叉垚鍔熺敓鎴愩€?
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:05.00
+      宸茬敤鏃堕棿 00:00:06.39
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/3.29.5-msvc4/CompilerIdC/CompilerIdC.exe
+        D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/3.29.5-msvc4/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -79,9 +79,9 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-      鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:17銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/9/30 21:50:30銆?
       
-      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
         姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
         宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
@@ -90,25 +90,25 @@ events:
         姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
         姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
       ClCompile:
-        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
+        D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx86\\x86\\cl.exe
       FinalizeBuildStatus:
         姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
         姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-      宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
       
       宸叉垚鍔熺敓鎴愩€?
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:01.20
+      宸茬敤鏃堕棿 00:00:03.67
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -116,7 +116,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CompilerIdCXX.exe
+        D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -127,50 +127,50 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-3wbh06"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-3wbh06"
+      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-nhux1m"
+      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-nhux1m"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-3wbh06'
+        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-nhux1m'
         
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f49f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12060.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:19銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/30 21:50:36銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wbh06\\cmTC_f49f7.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhux1m\\cmTC_12060.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f49f7.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_12060.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wbh06\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f49f7.dir\\Debug\\cmTC_f49f7.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhux1m\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_12060.dir\\Debug\\cmTC_12060.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_f49f7.dir\\Debug\\cmTC_f49f7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_f49f7.dir\\Debug\\cmTC_f49f7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_12060.dir\\Debug\\cmTC_12060.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_12060.dir\\Debug\\cmTC_12060.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f49f7.dir\\Debug\\\\" /Fd"cmTC_f49f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12060.dir\\Debug\\\\" /Fd"cmTC_12060.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f49f7.dir\\Debug\\\\" /Fd"cmTC_f49f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12060.dir\\Debug\\\\" /Fd"cmTC_12060.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wbh06\\Debug\\cmTC_f49f7.exe" /INCREMENTAL /ILK:"cmTC_f49f7.dir\\Debug\\cmTC_f49f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-3wbh06/Debug/cmTC_f49f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-3wbh06/Debug/cmTC_f49f7.lib" /MACHINE:X64  /machine:x64 cmTC_f49f7.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_f49f7.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wbh06\\Debug\\cmTC_f49f7.exe
+          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhux1m\\Debug\\cmTC_12060.exe" /INCREMENTAL /ILK:"cmTC_12060.dir\\Debug\\cmTC_12060.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-nhux1m/Debug/cmTC_12060.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-nhux1m/Debug/cmTC_12060.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_12060.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_12060.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhux1m\\Debug\\cmTC_12060.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f49f7.dir\\Debug\\cmTC_f49f7.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_f49f7.dir\\Debug\\cmTC_f49f7.tlog\\cmTC_f49f7.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wbh06\\cmTC_f49f7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_12060.dir\\Debug\\cmTC_12060.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_12060.dir\\Debug\\cmTC_12060.tlog\\cmTC_12060.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhux1m\\cmTC_12060.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.98
+        宸茬敤鏃堕棿 00:00:03.55
         
       exitCode: 0
   -
@@ -183,7 +183,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        linker tool for 'C': D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX86/x86/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -198,7 +198,7 @@ events:
       - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      Running the C compiler's linker: "D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Running the C compiler's linker: "D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.41.34123.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
@@ -210,51 +210,51 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-a9687i"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-a9687i"
+      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-dw3mhr"
+      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-dw3mhr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-a9687i'
+        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-dw3mhr'
         
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73a86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc1d3.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:20銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/9/30 21:50:41銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a9687i\\cmTC_73a86.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw3mhr\\cmTC_bc1d3.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_73a86.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bc1d3.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a9687i\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_73a86.dir\\Debug\\cmTC_73a86.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw3mhr\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bc1d3.dir\\Debug\\cmTC_bc1d3.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_73a86.dir\\Debug\\cmTC_73a86.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_73a86.dir\\Debug\\cmTC_73a86.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_bc1d3.dir\\Debug\\cmTC_bc1d3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bc1d3.dir\\Debug\\cmTC_bc1d3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_73a86.dir\\Debug\\\\" /Fd"cmTC_73a86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc1d3.dir\\Debug\\\\" /Fd"cmTC_bc1d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x86 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_73a86.dir\\Debug\\\\" /Fd"cmTC_73a86.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bc1d3.dir\\Debug\\\\" /Fd"cmTC_bc1d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a9687i\\Debug\\cmTC_73a86.exe" /INCREMENTAL /ILK:"cmTC_73a86.dir\\Debug\\cmTC_73a86.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-a9687i/Debug/cmTC_73a86.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-a9687i/Debug/cmTC_73a86.lib" /MACHINE:X64  /machine:x64 cmTC_73a86.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_73a86.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a9687i\\Debug\\cmTC_73a86.exe
+          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw3mhr\\Debug\\cmTC_bc1d3.exe" /INCREMENTAL /ILK:"cmTC_bc1d3.dir\\Debug\\cmTC_bc1d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-dw3mhr/Debug/cmTC_bc1d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/kratos-dev/MultiPhysicsFEMSolver-Dev/build/CMakeFiles/CMakeScratch/TryCompile-dw3mhr/Debug/cmTC_bc1d3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bc1d3.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bc1d3.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw3mhr\\Debug\\cmTC_bc1d3.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_73a86.dir\\Debug\\cmTC_73a86.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_73a86.dir\\Debug\\cmTC_73a86.tlog\\cmTC_73a86.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a9687i\\cmTC_73a86.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bc1d3.dir\\Debug\\cmTC_bc1d3.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bc1d3.dir\\Debug\\cmTC_bc1d3.tlog\\cmTC_bc1d3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\kratos-dev\\MultiPhysicsFEMSolver-Dev\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dw3mhr\\cmTC_bc1d3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:01.34
+        宸茬敤鏃堕棿 00:00:02.89
         
       exitCode: 0
   -
@@ -267,7 +267,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        linker tool for 'CXX': D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX86/x86/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -282,404 +282,7 @@ events:
       - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      Running the CXX compiler's linker: "D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Running the CXX compiler's linker: "D:/APPs/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.41.34123.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ybacgs"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ybacgs"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS  /W1 /bigobj /EHsc -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ybacgs'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2bd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:37銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\cmTC_f2bd2.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f2bd2.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f2bd2.dir\\Debug\\cmTC_f2bd2.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_f2bd2.dir\\Debug\\cmTC_f2bd2.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_f2bd2.dir\\Debug\\cmTC_f2bd2.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2bd2.dir\\Debug\\\\" /Fd"cmTC_f2bd2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\src.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2bd2.dir\\Debug\\\\" /Fd"cmTC_f2bd2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\src.c"
-          src.c
-        D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\cmTC_f2bd2.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\cmTC_f2bd2.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
-        
-        鐢熸垚澶辫触銆?
-        
-        鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\cmTC_f2bd2.vcxproj鈥?榛樿鐩爣) (1) ->
-        (ClCompile 鐩爣) -> 
-          D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybacgs\\cmTC_f2bd2.vcxproj]
-        
-            0 涓鍛?
-            1 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:00.82
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
-    checks:
-      - "Looking for pthread_create in pthreads"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ooxnph"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ooxnph"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS  /W1 /bigobj /EHsc -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "CMAKE_HAVE_PTHREADS_CREATE"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ooxnph'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc2a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:39銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\cmTC_cc2a5.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cc2a5.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cc2a5.dir\\Debug\\cmTC_cc2a5.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_cc2a5.dir\\Debug\\cmTC_cc2a5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_cc2a5.dir\\Debug\\cmTC_cc2a5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc2a5.dir\\Debug\\\\" /Fd"cmTC_cc2a5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\CheckFunctionExists.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc2a5.dir\\Debug\\\\" /Fd"cmTC_cc2a5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\Debug\\cmTC_cc2a5.exe" /INCREMENTAL /ILK:"cmTC_cc2a5.dir\\Debug\\cmTC_cc2a5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ooxnph/Debug/cmTC_cc2a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-ooxnph/Debug/cmTC_cc2a5.lib" /MACHINE:X64  /machine:x64 cmTC_cc2a5.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\cmTC_cc2a5.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\cmTC_cc2a5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
-        
-        鐢熸垚澶辫触銆?
-        
-        鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\cmTC_cc2a5.vcxproj鈥?榛樿鐩爣) (1) ->
-        (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ooxnph\\cmTC_cc2a5.vcxproj]
-        
-            0 涓鍛?
-            1 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.06
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
-      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
-      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
-    checks:
-      - "Looking for pthread_create in pthread"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-kzv1se"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-kzv1se"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS  /W1 /bigobj /EHsc -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "CMAKE_HAVE_PTHREAD_CREATE"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-kzv1se'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10bde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:41銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\cmTC_10bde.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_10bde.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_10bde.dir\\Debug\\cmTC_10bde.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_10bde.dir\\Debug\\cmTC_10bde.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_10bde.dir\\Debug\\cmTC_10bde.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10bde.dir\\Debug\\\\" /Fd"cmTC_10bde.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\CheckFunctionExists.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10bde.dir\\Debug\\\\" /Fd"cmTC_10bde.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\CheckFunctionExists.c"
-          CheckFunctionExists.c
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\Debug\\cmTC_10bde.exe" /INCREMENTAL /ILK:"cmTC_10bde.dir\\Debug\\cmTC_10bde.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-kzv1se/Debug/cmTC_10bde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-kzv1se/Debug/cmTC_10bde.lib" /MACHINE:X64  /machine:x64 cmTC_10bde.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\cmTC_10bde.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\cmTC_10bde.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
-        
-        鐢熸垚澶辫触銆?
-        
-        鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\cmTC_10bde.vcxproj鈥?榛樿鐩爣) (1) ->
-        (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kzv1se\\cmTC_10bde.vcxproj]
-        
-            0 涓鍛?
-            1 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.89
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:391 (find_package)"
-    description: "Detecting C OpenMP compiler info"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-v3yk06"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-v3yk06"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS  /W1 /bigobj /EHsc -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_C_openmp"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-v3yk06'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f39b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:45銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\cmTC_f39b4.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f39b4.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f39b4.dir\\Debug\\cmTC_f39b4.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_f39b4.dir\\Debug\\cmTC_f39b4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_f39b4.dir\\Debug\\cmTC_f39b4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_f39b4.dir\\Debug\\\\" /Fd"cmTC_f39b4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\OpenMPTryFlag.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_f39b4.dir\\Debug\\\\" /Fd"cmTC_f39b4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\OpenMPTryFlag.c"
-          OpenMPTryFlag.c
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\Debug\\cmTC_f39b4.exe" /INCREMENTAL /ILK:"cmTC_f39b4.dir\\Debug\\cmTC_f39b4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-v3yk06/Debug/cmTC_f39b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-v3yk06/Debug/cmTC_f39b4.lib" /MACHINE:X64  /machine:x64 cmTC_f39b4.dir\\Debug\\OpenMPTryFlag.obj
-          cmTC_f39b4.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\Debug\\cmTC_f39b4.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f39b4.dir\\Debug\\cmTC_f39b4.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_f39b4.dir\\Debug\\cmTC_f39b4.tlog\\cmTC_f39b4.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v3yk06\\cmTC_f39b4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.35
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:219 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:487 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:391 (find_package)"
-    description: "Detecting CXX OpenMP compiler info"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-rgerqo"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-rgerqo"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W1 /bigobj /EHsc /Zc:__cplusplus -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1 -DNDEBUG -DKRATOS_DEBUG"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-rgerqo'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_60cf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:47銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\cmTC_60cf3.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_60cf3.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_60cf3.dir\\Debug\\cmTC_60cf3.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_60cf3.dir\\Debug\\cmTC_60cf3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_60cf3.dir\\Debug\\cmTC_60cf3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D KRATOS_DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_60cf3.dir\\Debug\\\\" /Fd"cmTC_60cf3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /bigobj /Zc:__cplusplus "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\OpenMPTryFlag.cpp"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D KRATOS_DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_60cf3.dir\\Debug\\\\" /Fd"cmTC_60cf3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /bigobj /Zc:__cplusplus "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\OpenMPTryFlag.cpp"
-          OpenMPTryFlag.cpp
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\Debug\\cmTC_60cf3.exe" /INCREMENTAL /ILK:"cmTC_60cf3.dir\\Debug\\cmTC_60cf3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-rgerqo/Debug/cmTC_60cf3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-rgerqo/Debug/cmTC_60cf3.lib" /MACHINE:X64  /machine:x64 cmTC_60cf3.dir\\Debug\\OpenMPTryFlag.obj
-          cmTC_60cf3.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\Debug\\cmTC_60cf3.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_60cf3.dir\\Debug\\cmTC_60cf3.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_60cf3.dir\\Debug\\cmTC_60cf3.tlog\\cmTC_60cf3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rgerqo\\cmTC_60cf3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.78
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:421 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:561 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:391 (find_package)"
-    description: "Detecting C OpenMP version"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-j0fk0s"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-j0fk0s"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS  /W1 /bigobj /EHsc -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "OpenMP_SPECTEST_C_"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-j0fk0s'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9bdd9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:49銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\cmTC_9bdd9.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9bdd9.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9bdd9.dir\\Debug\\cmTC_9bdd9.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_9bdd9.dir\\Debug\\cmTC_9bdd9.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_9bdd9.dir\\Debug\\cmTC_9bdd9.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_9bdd9.dir\\Debug\\\\" /Fd"cmTC_9bdd9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\OpenMPCheckVersion.c"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_9bdd9.dir\\Debug\\\\" /Fd"cmTC_9bdd9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  /bigobj "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\OpenMPCheckVersion.c"
-          OpenMPCheckVersion.c
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\Debug\\cmTC_9bdd9.exe" /INCREMENTAL /ILK:"cmTC_9bdd9.dir\\Debug\\cmTC_9bdd9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-j0fk0s/Debug/cmTC_9bdd9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-j0fk0s/Debug/cmTC_9bdd9.lib" /MACHINE:X64  /machine:x64 cmTC_9bdd9.dir\\Debug\\OpenMPCheckVersion.obj
-          cmTC_9bdd9.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\Debug\\cmTC_9bdd9.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_9bdd9.dir\\Debug\\cmTC_9bdd9.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_9bdd9.dir\\Debug\\cmTC_9bdd9.tlog\\cmTC_9bdd9.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j0fk0s\\cmTC_9bdd9.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.30
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:421 (try_compile)"
-      - "D:/APPs/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake:561 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:391 (find_package)"
-    description: "Detecting CXX OpenMP version"
-    directories:
-      source: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-sxeb16"
-      binary: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-sxeb16"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS  /GR /EHsc /W1 /bigobj /EHsc /Zc:__cplusplus -DBOOST_ALL_NO_LIB -D_SCL_SECURE_NO_WARNINGS"
-      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1 -DNDEBUG -DKRATOS_DEBUG"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/cmake_modules"
-    buildResult:
-      variable: "OpenMP_SPECTEST_CXX_"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-sxeb16'
-        
-        Run Build Command(s): "D:/APPs/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_221f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
-        鐢熸垚鍚姩鏃堕棿涓?2025/9/3 15:54:51銆?
-        
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\cmTC_221f7.vcxproj鈥?榛樿鐩爣)銆?
-        PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_221f7.dir\\Debug\\鈥濄€?
-          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_221f7.dir\\Debug\\cmTC_221f7.tlog\\鈥濄€?
-        InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_221f7.dir\\Debug\\cmTC_221f7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_221f7.dir\\Debug\\cmTC_221f7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
-        ClCompile:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D KRATOS_DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_221f7.dir\\Debug\\\\" /Fd"cmTC_221f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /bigobj /Zc:__cplusplus "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\OpenMPCheckVersion.cpp"
-          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
-          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_ALL_NO_LIB /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D KRATOS_DEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /std:c++17 /Fo"cmTC_221f7.dir\\Debug\\\\" /Fd"cmTC_221f7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /bigobj /Zc:__cplusplus "D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\OpenMPCheckVersion.cpp"
-          OpenMPCheckVersion.cpp
-        Link:
-          D:\\APPs\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\Debug\\cmTC_221f7.exe" /INCREMENTAL /ILK:"cmTC_221f7.dir\\Debug\\cmTC_221f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-sxeb16/Debug/cmTC_221f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/WHF/IMMM/Nas_whf/SynologyDrive/Document/IMMM_nas/Graduate/kratos/Kratos_script/kratos-dev/kratos-custom/build/CMakeFiles/CMakeScratch/TryCompile-sxeb16/Debug/cmTC_221f7.lib" /MACHINE:X64  /machine:x64 cmTC_221f7.dir\\Debug\\OpenMPCheckVersion.obj
-          cmTC_221f7.vcxproj -> D:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\Debug\\cmTC_221f7.exe
-        FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_221f7.dir\\Debug\\cmTC_221f7.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_221f7.dir\\Debug\\cmTC_221f7.tlog\\cmTC_221f7.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\WHF\\IMMM\\Nas_whf\\SynologyDrive\\Document\\IMMM_nas\\Graduate\\kratos\\Kratos_script\\kratos-dev\\kratos-custom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxeb16\\cmTC_221f7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-        
-        宸叉垚鍔熺敓鎴愩€?
-            0 涓鍛?
-            0 涓敊璇?
-        
-        宸茬敤鏃堕棿 00:00:01.26
-        
-      exitCode: 0
 ...

@@ -6,7 +6,7 @@
 //                                                                                         |_|   |_|
 //
 //  License:		 BSD License
-//					 license: StructuralAnalysisApplication/license.txt
+//					 license: constitutive_laws_small_strain_application/license.txt
 //
 //  Main authors:    Riccardo Rossi
 //

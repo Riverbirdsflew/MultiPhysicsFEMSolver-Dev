@@ -267,8 +267,8 @@ protected:
      */ 
     Status mstat;
     CalculationFlags mCalculationFlags;
-    Phase::Pointer mpPhases[4];
-    PhaseTransformationLaw::Pointer mpPhaseTrans[7];
+    Phase::Pointer mpPhases[7];
+    PhaseTransformationLaw::Pointer mpPhaseTrans[4];
 
 };
 
