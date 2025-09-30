@@ -763,63 +763,6 @@ void AdvancedConstitutiveLawSmallStrainUtilities<TVoigtSize>::CalculateRotationO
 /***********************************************************************************/
 
 template<SizeType TVoigtSize>
-void AdvancedConstitutiveLawSmallStrainUtilities<TVoigtSize>::SubstractThermalStrain(
-    ConstitutiveLaw::StrainVectorType& rStrainVector,
-    const double ReferenceTemperature,
-    ConstitutiveLaw::Parameters& rParameters,
-    const bool IsPlaneStrain
-    )
-{
-    double alpha = rParameters.GetMaterialProperties()[THERMAL_EXPANSION_COEFFICIENT];
-    BoundedVectorType thermal_strain = ZeroVector(VoigtSize);
-    const double current_temperature_gp = CalculateInGaussPoint(TEMPERATURE, rParameters);//计算当前步，上一步
-    alpha *= (current_temperature_gp - ReferenceTemperature);//取上一步温度，alpha对温度积分，计算增量，至少存两步的计算结果，当前步和上一步
-    for (IndexType i = 0; i < Dimension; ++i)
-        thermal_strain(i) = 1.0;
-    if (IsPlaneStrain) {
-        const double NU = ConstitutiveLawUtilities<TVoigtSize>::CalculateMultiPhaseProperties(POISSON_RATIO, rParameters);//multiphase, through accessor
-        //const double NU = rParameters.GetMaterialProperties().GetValue(POISSON_RATIO, rParameters.GetElementGeometry(), rParameters.GetShapeFunctionsValues(), rParameters.GetProcessInfo());
-        alpha *= (1.0 + NU);
-    }
-    thermal_strain*=alpha;
-    noalias(rStrainVector) -= thermal_strain;
-}//
-
-/***********************************************************************************/
-/***********************************************************************************/
-
-template<SizeType TVoigtSize>
-void AdvancedConstitutiveLawSmallStrainUtilities<TVoigtSize>::SubstractThermalStrainIncrement(
-    ConstitutiveLaw::StrainVectorType& rStrainVector,
-    ConstitutiveLaw::Parameters& rParameters,
-    const bool IsPlaneStrain
-    )
-{
-    //double alpha = rParameters.GetMaterialProperties()[THERMAL_EXPANSION_COEFFICIENT];
-    double alpha = ConstitutiveLawUtilities<TVoigtSize>::CalculateMultiPhaseProperties(THERMAL_EXPANSION_COEFFICIENT, rParameters);
-    BoundedVectorType thermal_strain_increment = ZeroVector(VoigtSize);
-    const double previous_temperature_gp = CalculateInGaussPoint(TEMPERATURE, rParameters, 1);
-    const double current_temperature_gp = CalculateInGaussPoint(TEMPERATURE, rParameters,0);
-    //std::cout<< "###Test temperature last step  , current step" <<previous_temperature_gp<<current_temperature_gp<<std::endl;
-    alpha *= (current_temperature_gp - previous_temperature_gp);
-    for (IndexType i = 0; i < Dimension; ++i)
-        thermal_strain_increment(i) = 1.0;
-    if (IsPlaneStrain) {
-        const double NU = rParameters.GetMaterialProperties().GetValue(POISSON_RATIO, rParameters.GetElementGeometry(), rParameters.GetShapeFunctionsValues(), rParameters.GetProcessInfo());
-        alpha *= (1.0 + NU);
-    }
-
-    //用于热应变直接打印检验
-    //const auto& r_geometry = rParameters.GetElementGeometry();
-    //const unsigned int number_of_nodes = r_geometry.size();
-
-    noalias(rStrainVector) -= thermal_strain_increment*alpha;
-}
-
-/***********************************************************************************/
-/***********************************************************************************/
-
-template<SizeType TVoigtSize>
 double AdvancedConstitutiveLawSmallStrainUtilities<TVoigtSize>::CalculateInGaussPoint(
     const Variable<double>& rVariableInput,
     ConstitutiveLaw::Parameters& rParameters,

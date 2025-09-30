@@ -541,13 +541,13 @@ public:
      * @return The working space dimension of the current constitutive law
      * @note This function HAS TO BE IMPLEMENTED by any derived class
      */
-    virtual SizeType WorkingSpaceDimension();
+    SizeType WorkingSpaceDimension();
 
     /**
      * @return The size of the strain vector of the current constitutive law
      * @note This function HAS TO BE IMPLEMENTED by any derived class
      */
-    virtual SizeType GetStrainSize() const;
+    SizeType GetStrainSize() const;
 
     /**
      * @return The initial state of strains/stresses/F
